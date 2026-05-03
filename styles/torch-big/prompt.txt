@@ -1,2 +1,301 @@
-# Olympic Torch — large group
-# TODO: Add prompt
+==================================================
+ROLE: Olympic Torch Bearer Portrait Generator - OPENING CEREMONY HERO SHOT (ADULT)
+==================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CRITICAL FRAMING REQUIREMENT - VERTICAL PORTRAIT (3:4)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+COMPOSITION: Vertical portrait framing (3:4 aspect ratio, taller than wide) from upper thigh to comfortably above raised torch
+- Show subject from approximately upper thigh up - vertical format allows generous body presentation
+- Frame must accommodate raised arm holding torch up high with comfortable space above the flame
+- Torch flame should sit roughly in the upper third of the vertical frame
+- Comfortable headroom above raised torch/flame (10-15% of image height in vertical format)
+- Stadium track or floor visible at bottom of frame
+- Subject centered horizontally in frame - both arms must stay within the frame edges
+- Vertical format means more body shown top-to-bottom, but tighter on the sides - keep pose compact horizontally
+- Think: dramatic torch bearer entrance shot in tall vertical format like a movie poster or magazine cover, athlete fully presented
+This is a VERTICAL (3:4) format portrait - taller than wide.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INPUT:
+- Guest photo from booth (adult, ideally green screen background)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CRITICAL: FACIAL PRESERVATION (HIGHEST PRIORITY)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+✓ Maintain EXACT apparent age from input photo - do not age up or down
+✓ Preserve EXACT skin tone, melanin level, and natural complexion - do not lighten or darken
+✓ Preserve EXACT eye color from input photo (brown, blue, green, hazel, etc.)
+✓ Preserve EXACT hair color, length, texture, and style from input photo
+✓ Maintain natural ethnic features without westernization or alteration
+✓ Keep original facial structure, nose shape, lip fullness, eye shape, jawline
+✓ Preserve facial hair length, style, and color exactly as shown in input (beards, mustaches, stubble)
+✓ Preserve cultural elements: head coverings, religious jewelry, cultural accessories, glasses
+✓ Match facial expression with determined/triumphant/excited interpretation
+✓ Preserve any unique facial features: freckles, moles, dimples, scars, etc.
+✗ Do NOT lighten skin tones under any circumstances
+✗ Do NOT westernize or homogenize ethnic characteristics
+✗ Do NOT change eye color, hair color, or hair style
+✗ Do NOT remove cultural or religious elements
+✗ Do NOT add or remove facial hair (preserve exactly as in input)
+✗ Do NOT make subject appear younger or older than input photo
+
+CRITICAL BODY TYPE & GENDER PRESERVATION (HIGHEST PRIORITY):
+✓ Preserve guest's EXACT body type and proportions from GUEST PHOTO input
+✓ **Women: Maintain feminine athletic build - natural feminine proportions**
+✓ **Men: Maintain masculine athletic build - natural masculine proportions**
+✓ Do NOT apply masculine body structure to women
+✓ Do NOT apply feminine body structure to men
+✓ Adjust uniform to FIT the guest's natural body type
+✓ Maintain natural muscle definition appropriate to guest's build (athletic but realistic)
+✗ Do NOT add bodybuilder-level musculature to slim guests
+✗ Do NOT slim down naturally larger guests
+✗ Do NOT change body type significantly from input photo
+
+CRITICAL ANATOMICAL CORRECTNESS (HIGHEST PRIORITY):
+✓ Exactly TWO arms in a torch-bearer pose (varies based on input photo - see POSE REQUIREMENTS)
+✓ Exactly TWO legs visible in frame
+✓ Hands have correct number of fingers (5 per hand) when visible
+✓ One hand grips the torch handle securely - fingers wrapped around the grip
+✓ Normal human proportions - no extra limbs or body parts
+✓ Clean background without visual artifacts, blank areas, or floating elements
+✓ Natural joint placement - elbows, shoulders, wrists in correct positions
+✓ Consistent lighting across all body parts
+✗ Do NOT generate extra arms, hands, fingers, or limbs
+✗ Do NOT create background artifacts, white boxes, or blank screen areas
+✗ Do NOT produce anatomically impossible poses
+✗ Do NOT duplicate facial features or create ghost images
+**QUALITY CHECK:** Before finalizing, verify the subject has exactly 2 arms and normal adult anatomy with gender-appropriate body type.
+
+GENERATION SPECIFICATIONS:
+SUBJECT TRANSFORMATION:
+- Convert to professional sports portrait photography style
+- Maintain exact facial likeness while adding triumphant/heroic torch-bearer energy
+- Photorealistic quality with dramatic ceremonial lighting
+- Subject is wearing Team USA Olympic athletic uniform
+- Triumphant torch-bearer pose entering stadium during opening ceremony
+- Genuine athletic hero energy - determined, proud, awe-inspired by the moment
+
+TEAM USA OLYMPIC ATHLETIC UNIFORM:
+JERSEY/TANK DESIGN:
+- Athletic tank top or short-sleeve performance jersey
+- White base color with red and blue color blocking
+- Red shoulders/sleeves transitioning to white body
+- Blue trim/accent stripes along seams
+- "USA" in bold block letters across center chest in red with blue outline (or navy with red outline)
+- Modern athletic crew neck or v-neck collar
+- Performance fabric texture with realistic wrinkles
+- Fit appropriate for adult athlete's body proportions (form-fitting but not tight)
+SHORTS/BOTTOM:
+- Athletic running shorts or track shorts in navy blue
+- White and red side stripe or panel
+- Knee-length or above-knee athletic cut
+- Modern performance fabric
+ALTERNATIVE: WHITE TRACKSUIT TOP:
+- Optional alternative: white track jacket or warm-up jersey with red and blue accents
+- Zipper front, athletic cut, "USA" on chest
+- Modern Olympic-style ceremonial track jacket
+
+BRANDING RULES (CRITICAL):
+- "USA" text on chest is the primary identifying mark
+- NO Olympic rings logo (this is IOC protected IP - DO NOT include)
+- NO IOC official marks or logos
+- NO Nike swoosh, Adidas stripes, Under Armour, or other brand logos
+- NO specific Team USA Olympic Committee logos
+- Generic patriotic Team USA athletic styling only
+- Small American flag patch on shoulder or chest acceptable
+- Star or stripe accents acceptable for patriotic styling
+
+OLYMPIC TORCH DETAILS - CRITICAL FOCAL POINT:
+- Large, prominent ceremonial torch held high
+- Substantial weighted ceremonial torch with bright burning flame at the top
+- Torch should appear ornate, ceremonial, and prestigious
+**TORCH DESIGN (SPECIFIC - follow exactly):**
+- HANDLE: Long cylindrical handle approximately 12-18 inches in length
+- Handle material: brushed silver/chrome metal with subtle decorative engravings
+- Optional: small American flag pattern or star detail on the handle (subtle, near the grip)
+- Bowl/cup at top of handle: ornate metal cup that contains and channels the flame
+- Bowl design: classic chalice-like form with subtle decorative metalwork (laurel pattern or geometric design)
+- Polished metal catching light dramatically
+- Realistic weight and craftsmanship - looks like a real ceremonial object
+**TORCH FLAME (CRITICAL):**
+- Bright, vibrant ORANGE-GOLD flame burning prominently from the top of the torch
+- Flame is approximately 8-12 inches tall above the bowl
+- Flame is dynamic with realistic flickering wisps
+- Inner flame: bright yellow/white hot core
+- Outer flame: warm orange and gold tones
+- Slight wisps of flame curling and dancing
+- Hint of light smoke trailing upward (subtle, not heavy)
+- The flame casts a warm golden glow on the subject's face and upper body
+- Flame is the brightest light source in the image
+- Slight glow/halo around the flame from the bright light
+- Realistic fire physics - looks like a real burning flame
+**TORCH IP RESTRICTIONS - ABSOLUTELY CRITICAL:**
+✗ NO Olympic rings (the five interlocking rings) anywhere on the torch - this is IOC protected IP
+✗ NO replication of specific Olympic Games torches (Tokyo 2020, Paris 2024, LA 2028, Beijing, Rio, etc.)
+✗ NO recognizable signature design elements from real Olympic torches
+✗ NO "Tokyo 2020", "Paris 2024", "LA 2028" or any specific Olympic Games branding
+✗ NO IOC official marks of any kind
+✗ NO winged figures, classical Greek imagery, or Nike of Samothrace references
+✗ NO Greek text, Latin text, or ceremonial inscriptions
+✗ Generic modern ceremonial torch design only - no recognizable Olympic torch replication
+
+ATHLETIC ACCESSORIES & DETAILS:
+- Subtle accessories appropriate for an athlete
+- Optional: white athletic wristband on one wrist
+- Optional: small American flag temporary tattoo on cheek (face paint)
+- Optional: red, white, or blue ribbon or hair accessory if hair is long
+- Slightly windswept hair from running motion
+- Light sheen of "happy sweat" on forehead from running
+- Determined, proud expression - this is an athlete carrying the Olympic flame!
+- Big confident smile or determined heroic expression
+- Clean athletic look with ceremonial energy
+
+POSE REQUIREMENTS - PRESERVE GUEST'S POSE WHEN POSSIBLE:
+
+**KEY PRINCIPLE: Each guest's photo should feel UNIQUE - vary the pose based on what the guest is doing in their input photo while always keeping the torch held aloft.**
+
+**STEP 1: ANALYZE THE GUEST'S INPUT POSE FIRST**
+Look at what the guest is doing in their photo and adapt the torch-bearer pose to match their natural energy.
+
+**POSE OPTIONS (choose based on input photo - pick the closest match):**
+
+1. **If guest has BOTH ARMS RAISED UP** (Y or victory pose):
+   → Keep both arms raised, place torch in one hand held high
+   → Other arm extended up triumphantly
+   → Maximum hero/celebration energy
+
+2. **If guest has ONE ARM RAISED** (waving, pointing, fist up):
+   → Keep that arm raised, holding the torch high
+   → Other arm at side or pumping for running motion
+   → Classic torch bearer entrance pose
+
+3. **If guest is doing a FIST PUMP or POWER POSE**:
+   → Torch raised in one hand, other hand in fist pump
+   → Powerful determined energy
+
+4. **If guest is doing a #1 POINT or peace sign**:
+   → Keep that hand gesture (may be holding torch instead), torch elevated naturally
+   → Joyful celebration moment
+
+5. **If guest has ARMS CROSSED or HANDS ON HIPS**:
+   → Adapt to confident torch-bearer stance
+   → Both hands holding torch up with both hands, OR one hand on torch elevated, other at side
+
+6. **If guest appears to be RUNNING or in MOTION**:
+   → Capture mid-stride running pose, torch held high in one hand
+   → Classic opening ceremony torch run
+
+7. **If guest has NEUTRAL or UNCLEAR pose** (just standing):
+   → DEFAULT: Mid-stride running motion with torch raised high in one hand, other arm in natural running position
+   → Action torch bearer pose
+
+8. **If guest is JUMPING or EXCITED**:
+   → Capture peak excitement, torch raised high
+   → Both arms up energy with torch in one hand
+
+**ALWAYS REGARDLESS OF POSE:**
+- Big genuine smile or determined heroic expression
+- Eyes forward, confident, looking ahead toward camera or slightly above
+- Chest forward with pride
+- Confident, triumphant body language
+- Subtle suggestion of forward motion (windswept hair, slight body lean, jersey fabric in slight motion)
+- Body sharp and clear (not heavy motion blur on body)
+- TORCH FLAME MUST BE CLEARLY VISIBLE - bright orange-gold flame burning prominently above the torch
+
+**TORCH PLACEMENT - CRITICAL:**
+- Torch must always be held UP AND VISIBLE in the frame
+- Torch handle gripped securely by one or both hands
+- Flame burning brightly above the torch bowl
+- Torch should be near the upper portion of the frame
+- Flame should not be cropped at the top edge
+
+**CRITICAL: Vary the pose based on input photo - do NOT default to the same torch-running pose for every guest. Only use the running default if the input pose is unclear or static.**
+
+LIGHTING & ATMOSPHERE - DRAMATIC CEREMONIAL:
+- DRAMATIC, INSPIRATIONAL OPENING CEREMONY LIGHTING
+- PRIMARY: Strong overhead stadium spotlights creating dramatic illumination
+- TORCH FLAME GLOW: Warm golden light from flame illuminating face and upper body from above
+- BACK LIGHTING: Strong rim lighting from stadium lights separating subject from background
+- SIDE LIGHTING: Multiple stadium spotlights creating dimensional lighting
+- Stadium light beams cutting through atmospheric haze
+- Bright lens flares and starburst highlights from distant stadium lights
+- Lens flares and warm bokeh from stadium lights and crowd
+- Light rays through atmospheric ceremonial smoke/haze
+- High contrast but face well-lit with warm flame glow
+- Vibrant, punchy colors - this is a heroic ceremonial moment
+- Professional sports portrait lighting with epic energy
+- Warm, golden tones blending with cooler stadium light
+- Color temperature: Mixed warm flame (3000K) and cool stadium light (5500K) creating cinematic contrast
+
+BACKGROUND ENVIRONMENT - STADIUM INTERIOR DURING OPENING CEREMONY:
+- **CRITICAL: Subject is INSIDE a large stadium during the opening ceremony**
+- **Track surface visible beneath subject** - red/orange running track or stadium floor
+- **Large oval Olympic-style stadium architecture** visible around and behind subject
+- **Stadium stands FILLED with cheering crowds** - blurred but clearly densely packed with people
+- **Crowd is ENTHUSIASTIC** - waving flags (American flags subtle), holding lights, celebrating
+- **Stadium is brightly lit** with multiple light sources (stadium spotlights, ambient lights)
+- **Cameras and screens** on large LED displays around stadium showing imagery (subtle, blurred)
+- **OPENING CEREMONY ATMOSPHERE:**
+  * Confetti or paper streamers drifting through the air (gold, red, white, blue)
+  * Soft atmospheric haze/smoke catching light beams
+  * Distant fireworks or pyrotechnics in the upper portion of the stadium (small bursts, not overwhelming)
+  * Flag-waving crowds creating colorful blur in the background
+  * Festive, magical, awe-inspiring vibe
+- **Stadium architecture**: Modern oval Olympic-style stadium (NOT a specific real venue)
+- **Stadium lighting** creates dramatic spotlights and beams cutting through the air
+- Background heavily blurred with shallow depth of field - subject sharp
+- Subject is the heroic figure with the entire stadium and crowd as backdrop
+- **CRITICAL: NO photographers, NO press, NO paparazzi in foreground**
+- **CRITICAL: NO cameras held by people visible in foreground**
+- **Crowd should be IN THE STANDS, not crowding around the subject**
+- **NO Olympic rings or specific Olympic branding visible anywhere in the stadium**
+- **NO specific stadium architecture from real Olympic venues** - generic modern Olympic stadium
+- Color palette: Warm golds from torch and stadium lights, cool blues from stadium lighting, red/white/blue patriotic tones, deep stadium shadows
+
+STYLE & QUALITY - AUTHENTIC SPORTS/CEREMONY PHOTOGRAPHY:
+- Photorealistic sports/ceremony photography with epic energy
+- Professional DSLR/mirrorless aesthetic (Canon 1DX, Sony A9 feel)
+- Slight film grain or texture for authenticity
+- Color grading: Rich, saturated patriotic tones - red, white, blue, gold flame
+- Slightly warm color temperature with cool highlights for contrast
+- Sharp focus on subject and torch with natural depth of field
+- Natural skin tones and texture preserved
+- NOT overly HDR - natural contrast and dynamic range
+- Think: AP Photo or Sports Illustrated opening ceremony coverage
+- Authentic moment captured by professional sports/ceremony photographer
+- Cinematic quality - feels like a movie still
+
+CRITICAL CONSTRAINTS:
+✗ NO heavy motion blur on body (slight wind suggestion only - body remains sharp and clear)
+✗ NO helmet or face coverings - face must be fully visible
+✗ Face must be clearly recognizable as the same person from input photo
+✗ NO photographers, paparazzi, press, or people with cameras in foreground or background
+✗ NO visible cameras held by people in foreground
+✗ NO Olympic rings (five interlocking rings) anywhere - IOC protected IP
+✗ NO specific Olympic Games branding (no year/city marks, no real torch designs)
+✗ NO Nike, Adidas, Under Armour, or other corporate logos
+✓ Olympic torch must be clearly visible and prominent with bright flame
+✓ Torch flame must be bright, vibrant, and prominent (orange-gold)
+✗ Torch must be REALISTIC SIZE - approximately 18-30 inches total length, scaled to subject
+✗ NO oversized cartoon-prop torch
+✓ Pose should vary based on input photo - DO NOT use the same pose for every guest
+✗ Big genuine smile or determined heroic expression required - no neutral or sad expression
+✓ Stadium interior with cheering crowds in background mandatory
+✓ Opening ceremony atmosphere with confetti/lights/festive energy
+✓ Preserve gender-specific body type - do NOT masculinize women or feminize men
+
+TECHNICAL SPECIFICATIONS:
+- Output format: Vertical 3:4 aspect ratio (taller than wide, e.g. 675x900 or 1500x2000)
+- Style: Authentic sports/ceremony photography with epic energy
+- Camera aesthetic: Professional sports DSLR
+- Color science: Rich, saturated patriotic palette (red, white, blue, gold)
+- Lighting: Dramatic stadium ceremony lighting with torch flame glow
+- Focus: Sharp on subject and torch, heavy creamy bokeh on background
+- Color temperature: Mixed warm (flame 3000K) and cool (stadium 5500K) for cinematic contrast
+- Texture: Visible natural skin texture, slight grain for authenticity
+
+FINAL REMINDER:
+This is a PHOTO BOOTH ACTIVATION for an Olympic-themed party. The subject is an ADULT who should look like an athlete carrying the Olympic torch in an opening ceremony. Awe, pride, determination, and triumph are key emotions. The TORCH WITH BURNING FLAME is the consistent focal point - the celebration pose should VARY based on what the guest is doing in their input photo to keep each photo unique.
+NO HELMET, NO FACE COVERINGS - face must be fully visible.
+PRESERVE EXACT FACIAL FEATURES, BODY TYPE, AND GENDER from input photo.
+NO OFFICIAL OLYMPIC IP - generic patriotic Team USA styling and generic ceremonial torch only.
+NO PAPARAZZI / PHOTOGRAPHERS / CAMERAS in the foreground - clean cinematic stadium backdrop with cheering crowds in the stands only.
+THE TORCH MUST HAVE A BRIGHT, BURNING FLAME visible above the bowl. Stadium interior with crowd is mandatory backdrop.

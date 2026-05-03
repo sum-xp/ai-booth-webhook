@@ -1,2 +1,289 @@
-# Olympic Gold — large group
-# TODO: Add prompt
+==================================================
+ROLE: Olympic Gold Medal Celebration Portrait Generator - POSED HERO SHOT (ADULT)
+==================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CRITICAL FRAMING REQUIREMENT - VERTICAL PORTRAIT (3:4)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+COMPOSITION: Vertical portrait framing (3:4 aspect ratio, taller than wide) from upper thigh to comfortably above raised hand
+- Show subject from approximately upper thigh up - vertical format allows generous body presentation
+- Frame must accommodate raised arm holding gold medal up high with comfortable space above
+- Raised medal/hand should sit roughly in the upper third of the vertical frame
+- Comfortable headroom above raised arm/medal (10-15% of image height in vertical format)
+- Top of podium visible at bottom of frame
+- Subject centered horizontally in frame - both arms must stay within the frame edges
+- Pointing hand and raised hand should NOT be cropped at the side edges
+- Vertical format means more body shown top-to-bottom, but tighter on the sides - keep pose compact horizontally
+- Think: full ceremony portrait in tall vertical format like a movie poster or magazine cover, athlete fully presented
+This is a VERTICAL (3:4) format portrait - taller than wide.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INPUT:
+- Guest photo from booth (adult, ideally green screen background)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CRITICAL: FACIAL PRESERVATION (HIGHEST PRIORITY)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+✓ Maintain EXACT apparent age from input photo - do not age up or down
+✓ Preserve EXACT skin tone, melanin level, and natural complexion - do not lighten or darken
+✓ Preserve EXACT eye color from input photo (brown, blue, green, hazel, etc.)
+✓ Preserve EXACT hair color, length, texture, and style from input photo
+✓ Maintain natural ethnic features without westernization or alteration
+✓ Keep original facial structure, nose shape, lip fullness, eye shape, jawline
+✓ Preserve facial hair length, style, and color exactly as shown in input (beards, mustaches, stubble)
+✓ Preserve cultural elements: head coverings, religious jewelry, cultural accessories, glasses
+✓ Match facial expression with happy/excited/celebratory interpretation
+✓ Preserve any unique facial features: freckles, moles, dimples, scars, etc.
+✗ Do NOT lighten skin tones under any circumstances
+✗ Do NOT westernize or homogenize ethnic characteristics
+✗ Do NOT change eye color, hair color, or hair style
+✗ Do NOT remove cultural or religious elements
+✗ Do NOT add or remove facial hair (preserve exactly as in input)
+✗ Do NOT make subject appear younger or older than input photo
+
+CRITICAL BODY TYPE & GENDER PRESERVATION (HIGHEST PRIORITY):
+✓ Preserve guest's EXACT body type and proportions from GUEST PHOTO input
+✓ **Women: Maintain feminine athletic build - natural feminine proportions**
+✓ **Men: Maintain masculine athletic build - natural masculine proportions**
+✓ Do NOT apply masculine body structure to women
+✓ Do NOT apply feminine body structure to men
+✓ Adjust uniform to FIT the guest's natural body type
+✓ Maintain natural muscle definition appropriate to guest's build (athletic but realistic)
+✗ Do NOT add bodybuilder-level musculature to slim guests
+✗ Do NOT slim down naturally larger guests
+✗ Do NOT change body type significantly from input photo
+
+CRITICAL ANATOMICAL CORRECTNESS (HIGHEST PRIORITY):
+✓ Exactly TWO arms in a celebration pose (varies based on input photo - see POSE REQUIREMENTS)
+✓ Exactly TWO legs visible in frame
+✓ Hands have correct number of fingers (5 per hand) when visible
+✓ If pointing/gesturing: fingers clearly defined and natural
+✓ Normal human proportions - no extra limbs or body parts
+✓ Clean background without visual artifacts, blank areas, or floating elements
+✓ Natural joint placement - elbows, shoulders, wrists in correct positions
+✓ Consistent lighting across all body parts
+✗ Do NOT generate extra arms, hands, fingers, or limbs
+✗ Do NOT create background artifacts, white boxes, or blank screen areas
+✗ Do NOT produce anatomically impossible poses
+✗ Do NOT duplicate facial features or create ghost images
+**QUALITY CHECK:** Before finalizing, verify the subject has exactly 2 arms and normal adult anatomy with gender-appropriate body type.
+
+GENERATION SPECIFICATIONS:
+SUBJECT TRANSFORMATION:
+- Convert to professional sports portrait photography style
+- Maintain exact facial likeness while adding triumphant/celebratory energy
+- Photorealistic quality with professional lighting
+- Subject is wearing Team USA Olympic athletic uniform
+- Joyful, victorious celebration pose (specific pose varies based on guest's input photo - see POSE REQUIREMENTS)
+- Gold medal must be prominently visible (raised in hand OR hanging from neck ribbon)
+- Genuine athletic celebration energy - excited, proud, triumphant
+
+TEAM USA OLYMPIC ATHLETIC UNIFORM:
+JERSEY/TANK DESIGN:
+- Athletic tank top or short-sleeve performance jersey
+- White base color with red and blue color blocking
+- Red shoulders/sleeves transitioning to white body
+- Blue trim/accent stripes along seams
+- "USA" in bold block letters across center chest in red with blue outline (or navy with red outline)
+- Modern athletic crew neck or v-neck collar
+- Performance fabric texture with realistic wrinkles
+- Fit appropriate for adult athlete's body proportions (form-fitting but not tight)
+SHORTS/BOTTOM:
+- Athletic running shorts or track shorts in navy blue
+- White and red side stripe or panel
+- Knee-length or above-knee athletic cut
+- Modern performance fabric
+
+BRANDING RULES (CRITICAL):
+- "USA" text on chest is the primary identifying mark
+- NO Olympic rings logo (this is IOC protected IP - DO NOT include)
+- NO IOC official marks or logos
+- NO Nike swoosh, Adidas stripes, Under Armour, or other brand logos
+- NO specific Team USA Olympic Committee logos
+- Generic patriotic Team USA athletic styling only
+- Small American flag patch on shoulder or chest acceptable
+- Star or stripe accents acceptable for patriotic styling
+
+GOLD MEDAL DETAILS - CRITICAL FOCAL POINT:
+- Large, prominent gold medal hanging from neck ribbon
+- Medal raised up high in subject's hand, displayed proudly
+- Substantial circular medal with rich gold metallic finish - looks like solid weighted metal, not plastic
+- Medal should appear ornate, ceremonial, and expensive - like a championship or military commendation medal
+**MEDAL FACE DESIGN (SPECIFIC - follow exactly):**
+- Central element: a single five-pointed AMERICAN STAR in deep raised relief at the dead center
+- Surrounding the star: subtle radial sunburst rays emanating outward from behind the star
+- Encircling the sunburst: a full LAUREL WREATH in raised relief (two laurel branches curving up from the bottom and meeting at the top - classic victory wreath, predates Olympic usage)
+- Outer rim: ornate beaded or rope-twist border detail (like a high-end coin edge)
+- All elements deeply embossed with strong 3D relief - clearly catching light with highlights and shadow in the recesses
+- Slight darker patina/aging in the recessed areas to suggest real weighted metal
+- Polished gold highlights on the raised surfaces
+- **NO TEXT anywhere on the medal face** - no "GOLD", no "CHAMPION", no "1ST PLACE", no numbers, no letters of any kind
+- The medal speaks through its ornate sculptural design, not text labels
+**MEDAL CONSTRUCTION:**
+- Medal attached to ribbon via a small gold loop/bail at the top
+- Red, white, and blue striped grosgrain ribbon (substantial fabric weight, not flimsy)
+- Realistic gold metallic shine with proper specular highlights and reflections
+- Slight motion blur on ribbon if medal is being lifted, otherwise static
+**MEDAL SCALE - CRITICAL:**
+- Medal diameter approximately 3 to 3.5 inches (75-90mm) - the size of a real Olympic-style championship medal
+- Medal should be NO LARGER than the subject's open palm
+- Medal must be visibly SMALLER than the subject's head/face
+- For reference: when held up next to the face, the medal should appear roughly half the size of the head, NOT equal or larger
+- Medal is prominent and clearly visible through detail and gold shine, NOT through oversized scale
+- Realistic, life-sized championship medal proportions - not a novelty/prop scale
+- Think: the size of a real medal you'd see hanging on an athlete's neck, not a giant trophy disc
+**MEDAL IP RESTRICTIONS - ABSOLUTELY CRITICAL:**
+✗ NO Olympic rings (the five interlocking rings) anywhere on the medal - this is IOC protected IP
+✗ NO winged figure, angel, goddess, or "Nike of Samothrace" style figure on the medal (this is the actual Olympic medal design and is protected)
+✗ NO classical Greek/Roman figures, charioteers, or mythological imagery on the medal
+✗ NO stadium, coliseum, or architectural imagery on the medal face
+✗ NO Greek text, Latin text, or ceremonial inscriptions
+✗ NO "Tokyo 2020", "Paris 2024", "LA 2028" or any specific Olympic Games branding
+✗ NO IOC official marks of any kind
+✗ The medal face must be CLEAN and SIMPLE - if in doubt, use plain text like "CHAMPION" or just a star
+✗ Do NOT replicate any actual Summer or Winter Olympic medal design
+
+ATHLETIC ACCESSORIES & DETAILS:
+- Subtle accessories appropriate for an athlete
+- Optional: white athletic wristband on one wrist
+- Optional: small American flag temporary tattoo on cheek (face paint)
+- Optional: red, white, or blue ribbon or hair accessory if hair is long
+- Slightly disheveled victorious look - hair slightly messy from competition
+- Light sheen of "happy sweat" on forehead for authenticity
+- Big genuine smile - this is an athlete who just won gold!
+- NO eye black, NO hardcore game-day grime (this is a celebration moment)
+- Clean but with authentic just-finished-competing energy
+
+POSE REQUIREMENTS - PRESERVE GUEST'S POSE WHEN POSSIBLE:
+
+**KEY PRINCIPLE: Each guest's photo should feel UNIQUE - vary the pose based on what the guest is doing in their input photo.**
+
+**STEP 1: ANALYZE THE GUEST'S INPUT POSE FIRST**
+Look at what the guest is doing in their photo and adapt the celebration to match their natural pose/gesture.
+
+**POSE OPTIONS (choose based on input photo - pick the closest match):**
+
+1. **If guest has BOTH ARMS RAISED UP** (like a "Y" or victory pose):
+   → Keep both arms raised, place gold medal in one hand held high
+   → Big celebration energy
+
+2. **If guest has ONE ARM RAISED** (waving, pointing, fist up):
+   → Keep that arm raised, holding the gold medal high
+   → Other arm naturally at side or slightly out
+
+3. **If guest is doing a FIST PUMP or POWER POSE**:
+   → Keep the fist pump energy, medal hanging prominently from neck ribbon
+   → Both arms in pumping/celebrating position
+
+4. **If guest is doing a #1 POINT or peace sign**:
+   → Keep that hand gesture, medal in other hand or hanging from neck
+   → Natural celebration
+
+5. **If guest has ARMS CROSSED or HANDS ON HIPS**:
+   → Confident champion stance, medal hanging prominently from neck
+   → Proud, satisfied expression
+
+6. **If guest is HOLDING THE MEDAL** (kissing it, examining it, displaying it):
+   → Preserve that exact interaction with the medal
+   → Whether kissing, looking at it proudly, or showing it off
+
+7. **If guest has NEUTRAL or UNCLEAR pose** (just standing):
+   → DEFAULT: One hand raised HIGH holding gold medal up triumphantly + Other hand making "#1" point gesture
+   → This is the fallback for static input poses
+
+8. **If guest is JUMPING or EXCITED**:
+   → Capture peak excitement moment, medal hanging from neck
+   → Arms in whatever celebratory position they're in
+
+**ALWAYS REGARDLESS OF POSE:**
+- Big genuine smile, possibly mouth open in celebration ("YESSS!" energy)
+- Eyes wide with excitement, looking toward camera
+- Chest puffed slightly with pride
+- Confident, joyful body language
+- Static pose (not motion blurred) - captured peak celebration moment
+- Gold medal must be CLEARLY VISIBLE in the image (either raised in hand OR hanging from neck ribbon)
+
+**MEDAL PLACEMENT - IF NOT HELD UP:**
+If the chosen pose doesn't have the medal raised in a hand, the medal MUST be:
+- Prominently hanging from neck on red/white/blue ribbon
+- Catching light dramatically
+- Centered on chest, fully visible
+- Substantial and ornate
+
+**CRITICAL: Vary the pose based on input photo - do NOT default to the same medal-up + #1 point pose for every guest. Only use the default if the input pose is unclear or static.**
+
+LIGHTING & ATMOSPHERE:
+- BRIGHT, CELEBRATORY LIGHTING
+- PRIMARY: Strong overhead key light illuminating face, medal, and pointing hand
+- Medal catches light dramatically - golden reflections and shine
+- EDGE LIGHTING: Rim lighting from both sides separating subject from background
+- Stadium lighting creating bright, optimistic atmosphere
+- Bright lens flares and starburst highlights from distant stadium lights (NOT from foreground photographers)
+- Lens flares and bokeh from stadium lights
+- Light rays through atmospheric haze
+- High contrast but face well-lit and joyful
+- Vibrant, punchy colors - this is a triumphant moment
+- Professional sports portrait lighting with celebratory energy
+- Warm, golden tones blending with stadium light
+
+BACKGROUND ENVIRONMENT - CLEAN MEDAL CEREMONY (NO FOREGROUND CROWD):
+- **CRITICAL: NO photographers, NO press, NO paparazzi, NO people in foreground**
+- **CRITICAL: NO cameras, NO camera bodies, NO lenses, NO arms holding cameras visible anywhere**
+- Subject stands alone on or in front of #1 podium position (highest tier)
+- Generic gold-trimmed podium beneath subject, simple and clean
+- Background is OUT-OF-FOCUS stadium interior - heavy bokeh, soft and dreamy
+- Distant stadium architecture suggested through soft blur - no sharp details
+- Bright stadium spotlights creating dramatic starburst lens flares in the bokeh
+- Multiple soft circular bokeh orbs from out-of-focus stadium lights
+- Atmospheric haze catching the light, slight golden glow throughout
+- Optional: blurred suggestion of crowd FAR in the distance, behind heavy depth-of-field falloff (no individual people, faces, or cameras distinguishable - just abstract color blur suggesting a packed stadium)
+- Optional: subtle confetti or streamers drifting in the air (gold, red, white, blue, soft and out of focus)
+- Color palette in background: warm golds, soft reds, deep blues blending into bokeh
+- Shallow depth of field - background heavily blurred, subject sharp
+- Clean, cinematic, poster-like composition
+- Negative space allowed - the focus is the athlete, the medal, and the moment
+- Think: closing shot of a sports movie, the hero in the spotlight with everything else dissolved into atmosphere
+
+STYLE & QUALITY - AUTHENTIC SPORTS PHOTOGRAPHY:
+- Photorealistic sports photography with celebratory energy
+- Professional DSLR/mirrorless aesthetic (Canon 1DX, Sony A9 feel)
+- Slight film grain or texture for authenticity
+- Color grading: Rich, saturated patriotic tones - red, white, blue, gold
+- Slightly warm color temperature (5500-6000K)
+- Sharp focus on subject and medal with natural depth of field
+- Natural skin tones and texture preserved
+- NOT overly HDR - natural contrast and dynamic range
+- Think: AP Photo or Sports Illustrated medal ceremony coverage
+- Authentic moment captured by professional sports photographer
+
+CRITICAL CONSTRAINTS:
+✗ NO motion blur or running poses - this is a static celebration portrait
+✗ NO helmet or face coverings - face must be fully visible
+✗ Face must be clearly recognizable as the same person from input photo
+✗ NO photographers, paparazzi, press, or people with cameras in foreground or background
+✗ NO visible cameras, lenses, or camera flashes attached to people
+✗ NO Olympic rings (five interlocking rings) anywhere - IOC protected IP
+✗ NO winged figure / Nike of Samothrace / classical Greek figures on the medal
+✗ NO specific Olympic Games branding (no year/city marks)
+✗ NO Nike, Adidas, Under Armour, or other corporate logos
+✓ Gold medal must be clearly visible and prominent with ornate ceremonial design (raised in hand OR hanging from neck)
+✗ Medal must be REALISTIC SIZE - smaller than the subject's head, fits in their palm. NEVER oversized.
+✗ NO TEXT, NO LETTERS, NO NUMBERS on the medal face - sculptural relief only
+✓ Pose should vary based on input photo - DO NOT use the same pose for every guest
+✗ Big genuine smile required - no neutral or serious expression
+✓ Preserve gender-specific body type - do NOT masculinize women or feminize men
+
+TECHNICAL SPECIFICATIONS:
+- Output format: Vertical 3:4 aspect ratio (taller than wide, e.g. 675x900 or 1500x2000)
+- Style: Authentic sports photography with celebratory energy
+- Camera aesthetic: Professional sports DSLR
+- Color science: Rich, saturated patriotic palette (red, white, blue, gold)
+- Lighting: Bright stadium ceremony lighting with stadium light flares (NO photographer flashes)
+- Focus: Sharp on subject and medal, heavy creamy bokeh on background
+- Color temperature: Slightly warm (5500-6000K)
+- Texture: Visible natural skin texture, slight grain for authenticity
+
+FINAL REMINDER:
+This is a PHOTO BOOTH ACTIVATION for an Olympic-themed party. The subject is an ADULT who should look like they're celebrating winning Olympic gold. Joy, pride, and triumph are key emotions. The GOLD MEDAL is the consistent focal point - the celebration pose should VARY based on what the guest is doing in their input photo to keep each photo unique.
+NO HELMET, NO FACE COVERINGS - face must be fully visible.
+PRESERVE EXACT FACIAL FEATURES, BODY TYPE, AND GENDER from input photo.
+NO OFFICIAL OLYMPIC IP - generic patriotic Team USA styling only.
+NO PAPARAZZI / PHOTOGRAPHERS / CAMERAS in the scene - clean cinematic backdrop only.
+THE MEDAL FACE MUST BE ORNATE AND SCULPTURAL - star, sunburst, and laurel wreath in deep relief. NO text or letters anywhere. Never the actual Olympic medal design.

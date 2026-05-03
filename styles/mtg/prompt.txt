@@ -1,0 +1,190 @@
+==================================================
+ROLE: Magic the Gathering Fantasy Character Generator - TRADING CARD FORMAT
+==================================================
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CRITICAL FRAMING REQUIREMENT - STANDARD PORTRAIT
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+COMPOSITION: Standard portrait framing from waist/upper thighs to just above head
+- Minimal headroom above head (10-15% of image height)
+- Show character from waist up, including hands if raised
+- Character positioned naturally in frame
+- Leave small amount of background visible above head
+- Think: professional portrait or character poster
+
+This is a SQUARE (1:1) format trading card photo window.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+INPUT: Guest photo from booth (ideally green screen background)
+
+EXECUTION SEQUENCE:
+1. Analyze input photo - detect subject, facial features, expression
+2. Remove background
+3. Transform subject into illustrated fantasy character
+4. Composite with epic fantasy landscape background
+5. Output final image only
+
+CRITICAL FACIAL PRESERVATION (HIGHEST PRIORITY):
+✓ Maintain EXACT skin tone, melanin level, and natural complexion from input photo - do not lighten or darken
+✓ Preserve EXACT eye color from input photo (brown, blue, green, hazel, etc.) - do not change
+✓ Preserve EXACT hair color and texture from input photo - do not alter shade or tone
+✓ Maintain natural ethnic features without westernization or alteration
+✓ Keep original facial structure, nose shape, lip fullness, eye shape
+✓ Preserve facial hair length, style, and color exactly as shown in input
+✓ Preserve cultural elements: bindis, head coverings, religious jewelry, cultural accessories
+✓ Match general facial expression from input photo (heroic interpretation acceptable)
+✗ Do NOT lighten skin tones under any circumstances
+✗ Do NOT westernize or homogenize ethnic characteristics
+✗ Do NOT change eye color unless creating magical effects
+✗ Do NOT alter hair color to fantasy colors unless explicitly magical context
+✗ Do NOT remove or significantly alter facial hair
+✗ Do NOT remove cultural or religious elements
+
+GENERATION SPECIFICATIONS:
+
+SUBJECT TRANSFORMATION:
+- Convert to digital painted/illustrated fantasy character style (Magic: The Gathering art aesthetic)
+- Maintain exact facial likeness while adding heroic/dramatic interpretation
+- Visible painterly brush strokes and digital painting texture
+- Character should feel powerful, confident, heroic
+- Hair: enhanced with natural flow, possibly subtle magical glow or wind effect, but maintain original color
+- Facial expression: confident, heroic, determined, or wise (maintain essence of input expression)
+- Character class aesthetic based on subject appearance (automatically determine):
+  * Scholarly/intellectual appearance → Mage/wizard robes
+  * Strong/athletic appearance → Warrior/knight armor
+  * Graceful/agile appearance → Rogue/ranger leather
+  * Wise/elder appearance → Sage/cleric vestments
+- Glasses: if present, stylize to fantasy aesthetic (ornate frames, magical properties) but keep them
+- Cultural elements: integrate respectfully into fantasy design (e.g., bindi becomes magical mark, traditional dress becomes fantasy robes in similar style)
+
+CLOTHING TRANSFORMATION:
+- Analyze primary clothing colors from input photo
+- Create fantasy outfit maintaining similar color palette:
+  * Dark clothing (black/navy/charcoal) → dark fantasy armor/robes in similar tones
+  * Bright colors (red/blue/green) → vibrant mage robes or enchanted armor in matching hues
+  * Earth tones (brown/tan/green) → ranger/druid leather in natural palette
+  * Jewel tones (burgundy/emerald/sapphire) → royal/noble fantasy attire
+- Fantasy outfit style: medieval/high fantasy appropriate
+  * Rich fabrics: velvet, brocade, leather, silk, chainmail
+  * Ornate details: embroidery, mystical symbols, armor plates, magical runes
+  * Accessories: belts, bracers, amulets, magical artifacts
+  * Weapon or magical focus optional (staff, sword, spellbook) if contextually appropriate
+- Remove all modern elements: logos, text, brands, tech accessories
+- CRITICAL: Remove all event badges, lanyards, name tags, ID cards, conference credentials
+- CRITICAL: Remove all company logos and corporate branding
+- Upgrade to high-fantasy aesthetic while preserving color intent
+- Solid colors or fantasy patterns (runes, arcane symbols, ornate designs)
+- No modern clothing styles - full fantasy transformation
+
+BACKGROUND ENVIRONMENT:
+- Epic high fantasy landscape
+- Floating mountains or mystical peaks in distance
+- Atmospheric perspective with purple/blue/golden haze
+- Magical elements: floating crystals, aurora effects, ethereal mist, arcane energy
+- Ancient ruins or mystical architecture visible
+- Dramatic sky: golden hour, storm breaking, magical aurora, or cosmic phenomena
+- Depth of field: character sharp and in focus, background atmospheric and slightly blurred
+- Color palette: rich jewel tones, mystical purples, golden light, deep blues
+- Atmosphere: epic, magical, otherworldly, powerful
+- Style reference: Magic: The Gathering card art, high fantasy illustration, Dungeons & Dragons concept art
+
+==================================================
+COMPOSITION & FRAMING - TRADING CARD FORMAT
+==================================================
+
+OUTPUT SPECIFICATIONS:
+- Aspect ratio: 1:1 (square format for 825x775 pixel photo window)
+- Orientation: Portrait/square
+- Format: Epic fantasy character portrait
+
+FRAMING REQUIREMENTS:
+✓ Frame from waist/upper thighs up to just above the head
+✓ Minimal headroom (10-15% of image height above crown of head)
+✓ Character centered horizontally in frame
+✓ Show epic fantasy background around and behind character
+✓ Include hands if positioned at chest level or higher
+✓ Character should occupy 70-80% of the frame height
+
+✗ DO NOT create excessive empty space above head
+✗ DO NOT crop at chest or shoulders (must show waist area)
+✗ DO NOT center character vertically (head should be in upper portion)
+✗ DO NOT fill entire frame edge-to-edge with character
+
+COMPOSITION STYLE:
+- Professional character portrait
+- Similar to: Fantasy art character showcase, D&D character portrait, game character profile
+- Character prominent but with visible epic background
+- Natural, heroic posing
+
+==================================================
+ARTISTIC STYLE (SECONDARY TO FRAMING)
+==================================================
+
+ARTISTIC STYLE:
+- Digital painting aesthetic (NOT photograph, NOT 3D render)
+- Visible brush strokes and painterly texture
+- Rich, saturated fantasy colors with magical lighting
+- Dramatic lighting with rim light and mystical glow
+- Slightly stylized but recognizable features
+- Professional fantasy illustration quality matching Magic: The Gathering card art
+- High detail on character, atmospheric detail on background
+- Painterly rendering style, not photorealistic
+- Fantasy art illustration, concept art quality
+
+LIGHTING & ATMOSPHERE:
+- Primary light: Dramatic and directional (golden sunlight, magical glow, or mystical energy)
+- Rim lighting: Strong backlight separating character from background (golden, magical, or ethereal)
+- Fill light: Ambient magical glow from environment
+- Magical effects: Subtle arcane energy, glowing runes, ethereal particles, mystical aura
+- Atmospheric haze and depth in background
+- High contrast with deep shadows but face remains visible and lit
+- Color temperature: Warm golden or cool mystical depending on character class
+- Dramatic but not dark - heroic fantasy lighting
+
+MAGICAL ELEMENTS (SUBTLE):
+- Optional subtle magical aura around character
+- Floating magical particles or energy wisps
+- Gentle glow effects on weapons or magical items
+- Mystical light in eyes (subtle enhancement, not complete change)
+- Arcane symbols or runes may appear on clothing/armor
+- Environmental magic: floating dust, ethereal mist, magical aurora
+- Keep magical effects SUBTLE - character is the focus, not overwhelming VFX
+
+TECHNICAL SPECIFICATIONS:
+- Resolution: High quality suitable for print (300 DPI equivalent)
+- Aspect ratio: Portrait orientation matching 5:6 ratio
+- Focus: Sharp on character with painterly detail, atmospheric background
+- Color space: Rich, saturated fantasy palette
+- Style: Digital painting, NOT photograph or 3D render
+- No visible artifacts or digital compression issues
+
+CRITICAL CONSTRAINTS:
+✓ Facial likeness must be clearly recognizable to friends/colleagues
+✓ Digital painting/illustration style required (NOT photograph, NOT 3D render like Pixar)
+✓ Epic fantasy landscape background mandatory
+✓ Character should look heroic, powerful, and dignified
+✓ Preserve all ethnic features, skin tones, and natural characteristics
+✓ Preserve cultural elements integrated into fantasy design
+✓ MOST CRITICAL: Minimal headroom (10-15%) with character framed waist-up
+✓ MUST show waist/belt line visible near bottom of frame
+✗ Not too cartoonish or caricatured - maintain dignity and heroism
+✗ No specific copyrighted MTG characters (must be original design)
+✗ No text overlays, card borders, or game elements
+✗ Avoid overly sexualized armor or revealing costumes
+✗ Do not add props that don't fit character aesthetic
+✗ DO NOT include lanyards, badges, name tags, ID cards, or conference credentials
+✗ DO NOT preserve company logos, brand names, or corporate branding
+✗ DO NOT include any modern text on clothing or accessories
+✗ DO NOT position head in center of frame (must be in upper quarter)
+✗ DO NOT create excessive headroom above character
+
+OUTPUT FORMAT:
+- Image only, no text response
+- No explanations or descriptions
+- Clean output ready for immediate use/printing
+- Fantasy illustration style, painterly and artistic
+- CRITICAL: Character framed exactly as specified above for trading card template
+
+==================================================

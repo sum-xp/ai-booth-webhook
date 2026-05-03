@@ -1,0 +1,357 @@
+==================================================
+ROLE: Pixar-Style Character in Futuristic London
+==================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CRITICAL FRAMING REQUIREMENT - STANDARD PORTRAIT
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+COMPOSITION: Standard portrait framing from waist/upper thighs to just above head
+- Minimal headroom above head (10-15% of image height)
+- Show character from waist up, including hands if raised
+- Character positioned naturally in frame
+- Leave small amount of futuristic city background visible above head
+- Think: professional portrait or character poster
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INPUT: Guest photo from booth (ideally green screen background)
+EXECUTION SEQUENCE:
+1. Analyze input photo - detect subject, facial features, expression
+2. Remove background
+3. Transform subject into 3D Pixar-style character
+4. Composite with futuristic London (Westminster) background
+5. Output final image only
+CRITICAL FACIAL PRESERVATION (HIGHEST PRIORITY):
+✓ Maintain EXACT skin tone, melanin level, and natural complexion from input photo - do not lighten or darken
+✓ Preserve EXACT eye color from input photo (brown, blue, green, hazel, etc.) - do not change
+✓ Preserve EXACT hair color and texture from input photo - do not alter shade or tone
+✓ Maintain natural ethnic features without westernization or alteration
+✓ Keep original facial structure, nose shape, lip fullness, eye shape
+✓ Preserve facial hair length, style, and color exactly as shown in input
+✓ Preserve cultural elements: bindis, head coverings, religious jewelry, cultural accessories
+✓ Match general facial expression from input photo (slight enhancement to friendly Pixar smile acceptable)
+✗ Do NOT lighten skin tones under any circumstances
+✗ Do NOT westernize or homogenize ethnic characteristics
+✗ Do NOT change eye color to blue or green unless already present in input
+✗ Do NOT alter hair color unless adding subtle highlights
+✗ Do NOT remove or significantly alter facial hair
+✗ Do NOT remove cultural or religious elements (bindis, hijabs, turbans, etc.)
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CRITICAL: NO DUPLICATE FACES OR GHOST IMAGES
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+✗ **ABSOLUTELY NO duplicate faces, heads, or ghost images of the subject anywhere in the scene**
+✗ **NO floating face in the background, sky, or buildings**
+✗ **NO ghost/translucent versions of the subject in the background**
+✗ **NO billboards, holograms, or displays showing the subject's face**
+✗ **NO reflections or shadows that look like the subject's face**
+✗ **The subject appears EXACTLY ONCE in the image - in the foreground**
+✗ **Holographic displays should show data/icons/abstract visuals - NEVER faces**
+✗ **NO mirror images, doubles, or echoes of the subject**
+
+**SINGLE SUBJECT RULE:** Only ONE instance of the subject's face appears in the entire image. The background contains buildings, vehicles, environment - NEVER another version of the person.
+GENERATION SPECIFICATIONS:
+SUBJECT TRANSFORMATION:
+- Convert to Pixar 3D animated character style (similar to Incredibles, Coco, Encanto, Turning Red)
+- Maintain exact facial likeness while adding Pixar's characteristic warm, appealing aesthetic
+- Large, expressive eyes (but maintain original eye color)
+- Soft, appealing features with Pixar's signature look
+- Hair: Stylized with Pixar's characteristic texture and slight exaggeration, but maintain original color
+- Facial expression: Friendly, confident, warm Pixar smile (not overly exaggerated)
+- Glasses: if present, stylize to Pixar aesthetic (cleaner, slightly larger, more appealing) but keep them
+- Cultural elements: integrate naturally into Pixar design (e.g., bindi maintained, traditional dress stylized)
+CLOTHING TRANSFORMATION:
+- Analyze primary clothing colors from input photo
+- Create clean, modern casual outfit maintaining similar color palette:
+  * Dark clothing (black/navy/charcoal) → Clean dark casual wear (sweater, jacket, shirt)
+  * Bright colors (red/blue/green) → Vibrant casual clothing in matching hues
+  * Neutral tones (grey/beige/white) → Clean neutral business casual
+  * Multiple colors → Combine into cohesive, stylish outfit
+- Clothing style: Modern business casual or smart casual
+  * Clean sweaters, button-up shirts, blazers, or casual jackets
+  * Well-fitted but not tight
+  * Solid colors or subtle patterns - NO logos, text, or graphics
+  * Professional but approachable aesthetic
+- Remove all modern accessories: lanyards, badges, name tags, smartwatches (replace with simple watch if needed)
+- CRITICAL: Remove all event badges, ID cards, conference credentials, company logos
+- Upgrade wrinkles/creases to clean, pressed appearance
+- Keep it simple and timeless - think Pixar character in everyday professional setting
+
+BACKGROUND ENVIRONMENT - FUTURISTIC LONDON (WESTMINSTER VIEW):
+
+**SETTING: Futuristic Westminster, London (year 2050-2075 aesthetic)**
+
+**GEOGRAPHIC CONSISTENCY - CRITICAL:**
+This scene depicts the WESTMINSTER area of London where these landmarks NATURALLY appear together in the same view. All landmarks shown must be visible from a single Westminster viewpoint - typically looking across the Thames from the South Bank, or from Westminster Bridge.
+
+**LANDMARKS TO INCLUDE - HEAVILY RETROFITTED WITH FUTURISTIC ELEMENTS:**
+
+**CRITICAL: The historic landmarks must be VISIBLY RETROFITTED with futuristic technology and architecture - not just have subtle enhancements. The futuristic upgrades should be BOLD and OBVIOUS while still keeping the building recognizable.**
+
+- **Futuristic Big Ben / Elizabeth Tower** - HEAVILY RETROFITTED:
+  * Original gothic clock tower silhouette PRESERVED but visibly upgraded
+  * **Holographic clock face** with glowing digital numerals overlaid on traditional clock
+  * **Sleek metallic chrome/silver panels** integrated into the gothic stonework
+  * **Glowing neon blue/cyan accent lines** running vertically up the tower
+  * **Floating holographic displays** projecting from the tower (showing time, data)
+  * **Glass and steel sections** retrofitted into parts of the gothic facade
+  * **Antenna arrays and tech equipment** mounted at the top
+  * **LED light strips** outlining the gothic architectural details
+  * Still recognizably Big Ben but obviously upgraded for the future
+
+- **Houses of Parliament / Palace of Westminster** - HEAVILY RETROFITTED:
+  * Original gothic silhouette and spires PRESERVED
+  * **Large glass and chrome additions** integrated into the gothic stone facade
+  * **Glowing neon accent lighting** running along the spires and architectural details
+  * **Holographic displays** floating around the building
+  * **Modern glass towers** seamlessly fused with original gothic stone
+  * **Solar panel arrays** integrated into the rooflines
+  * **Vertical gardens** climbing parts of the gothic walls
+  * **Tech antennas and futuristic equipment** on the rooftops
+  * Gothic stone visibly contrasted with modern glass/chrome retrofits
+
+- **London Eye** - HEAVILY UPGRADED:
+  * The giant Ferris wheel structure preserved
+  * **Glowing neon capsules** with holographic displays
+  * **Sleek metallic spokes** with embedded LED light strips
+  * **Holographic projections** emanating from the wheel
+  * **Levitating/floating capsule design** with modern glass
+
+- **River Thames** - futuristic transport:
+  * **Sleek hover boats** and futuristic water taxis
+  * **Floating holographic billboards** above the water
+  * Glowing reflections in the water
+
+- **Westminster Bridge** - HEAVILY RETROFITTED (must NOT look current):
+  * Historic stone bridge structure preserved but visibly upgraded
+  * **Glowing neon underlighting** along the entire length of the bridge
+  * **Modern glass safety panels** integrated into the railings
+  * **Glowing LED light strips** running along the bridge edges
+  * **Holographic traffic signals** floating above
+  * **Sleek chrome/metallic accent panels** on the bridge structure
+  * **NOT the traditional green/cream colored bridge** - heavily upgraded with futuristic elements
+  * Bridge surface has glowing line markings (not traditional road paint)
+
+**ADDITIONAL FUTURISTIC ELEMENTS THROUGHOUT:**
+- **MULTIPLE futuristic flying vehicles** (4-6+ visible) zipping between landmarks at various heights and angles in the sky
+- **MULTIPLE drones** of varying sizes hovering throughout the scene (delivery drones, camera drones, transport drones)
+- Multiple holographic displays floating throughout the scene
+- **Visible technology integration on EVERY historic building** - not just background
+- Glowing neon accent lighting on architectural details
+- Clean energy elements (solar panels, vertical gardens) on historic facades
+- Tech infrastructure visibly woven into the classic architecture
+
+**FUTURISTIC VEHICLE DESIGN - CRITICAL:**
+
+The flying vehicles must look GENUINELY FUTURISTIC - NOT just modern/current cars floating in the air.
+
+**VEHICLE DESIGN REQUIREMENTS:**
+✓ **Sleek aerodynamic shapes** - smooth curved bodies, pod-like or capsule designs
+✓ **NO traditional wheels** - hover technology, ion thrusters, repulsor pads, or jet propulsion visible underneath
+✓ **Glowing propulsion elements** - blue/cyan thruster glows, repulsor lights underneath
+✓ **Tinted glass canopies or wraparound windshields** - bubble cockpits, panoramic windows
+✓ **Minimalist futuristic styling** - clean lines, no door handles, no traditional automotive features
+✓ **Light strips and LED accents** integrated into the body (running lights, indicators)
+✓ **Varied designs**:
+  * Sleek personal hover-cars (single passenger pods)
+  * Larger hover-shuttles (multi-passenger, like flying buses)
+  * Cargo/delivery drones (utilitarian futuristic design)
+  * Sport hover-vehicles (sleek sports car aesthetic)
+  * Police/emergency vehicles (with glowing markers)
+✓ **Inspiration**: Think Blade Runner spinners, Star Wars airspeeders, Cyberpunk 2077 vehicles, Tron lightcycles, Tesla Cybertruck-meets-flying-car
+
+**DO NOT:**
+✗ Show current-day cars (sedans, SUVs, hatchbacks) just floating in the air
+✗ Show vehicles with traditional wheels visible
+✗ Show vehicles that look like 2020s automobiles with jet thrusters slapped on
+✗ Show traditional truck/van shapes
+✗ Make vehicles look like they were designed in the 21st century
+
+The vehicles should look like they were designed in 2075 - completely re-imagined transportation, not retrofitted current cars.
+
+**ALL VEHICLES IN THE SCENE MUST BE FUTURISTIC - INCLUDING GROUND-LEVEL:**
+
+This applies to EVERY vehicle visible anywhere in the image:
+✗ NO current-day delivery vans (no white box vans)
+✗ NO current-day cars on bridges or streets
+✗ NO current red double-decker buses (only futuristic hover-bus versions)
+✗ NO current-day boats (only futuristic hover boats or sleek modern designs)
+✗ NO current taxis or trucks
+✗ NO modern lamp posts (must be futuristic with glowing elements)
+
+✓ Vehicles on bridges/roads must be sleek futuristic ground vehicles (low-profile hover cars, autonomous pods, glowing electric vehicles)
+✓ Boats on the Thames must be futuristic hover boats with glowing propulsion
+✓ Buses must be re-imagined futuristic transit (sleek, glowing, no traditional bus shape)
+✓ Delivery vehicles must be futuristic autonomous pods or drones
+✓ Even street infrastructure (lamp posts, signs, road markings) must be futuristic
+
+**INFRASTRUCTURE CHECK:**
+Before finalizing, verify:
+- The bridge is futuristic (not traditional green/cream Westminster Bridge)
+- All vehicles (ground and air) are futuristic designs
+- No current-day delivery vans, buses, or cars visible
+- Street lighting and signage is futuristic
+- The entire scene looks like 2075, not 2025 with some flying cars
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+MANDATORY: VISIBLE RAILING/BARRIER BEHIND CHARACTER
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+**THE CHARACTER MUST HAVE A VISIBLE RAILING DIRECTLY BEHIND THEM - THIS IS REQUIRED**
+
+**RAILING REQUIREMENTS:**
+- **A horizontal railing/barrier MUST be clearly visible directly behind the character at waist-to-chest level**
+- The railing should be PROMINENTLY VISIBLE in the image - not hidden or implied
+- The character is leaning against, standing in front of, or near the railing
+- Railing extends horizontally across the frame behind the character
+
+**RAILING STYLE - FUTURISTIC:**
+- Sleek modern futuristic design - chrome, brushed metal, or glass panels
+- **Glowing neon accent lighting along the railing** (blue/cyan strips)
+- Clean horizontal lines, modern minimalist
+- Could include glass safety panels with subtle tech integration
+- Looks like it belongs in a futuristic London setting
+
+**LOCATION CONTEXT:**
+The character is on one of these elevated locations:
+- Westminster Bridge (with railing along the bridge edge)
+- A Thames-side observation deck or promenade
+- A futuristic viewing terrace overlooking the cityscape
+- A futuristic balcony or platform with view of Westminster
+
+**WHY THIS MATTERS:**
+Without a visible railing, the character appears to be floating mid-air over the Thames. The railing grounds them in the scene as someone standing at an elevated viewpoint enjoying the view of futuristic London.
+
+**VISUAL CHECK:** Before finalizing, verify there is a clearly visible horizontal railing/barrier in the image directly behind the character at waist-to-chest height. If no railing is visible, ADD ONE.
+
+**FUTURISTIC SKYLINE - DISTANT FUTURE TOWERS (CRITICAL):**
+
+The far distance behind the Westminster landmarks must show a **bold futuristic skyline** of new architectural marvels - representing how London has evolved into a future metropolis while preserving its historic core.
+
+**INCLUDE in the distant skyline:**
+- **Multiple towering futuristic skyscrapers** rising in the distance behind Westminster
+- **Sleek, organic, curving tower designs** - twisted spirals, asymmetrical shapes, biomimetic forms
+- **Crystalline/diamond-shaped megatowers** with glowing facades
+- **Spire-like ultra-tall towers** with holographic tops piercing the clouds
+- **Floating sky platforms** or suspended architecture between towers
+- **Glowing windows** patterns on the futuristic buildings creating illuminated geometry
+- **Towers connected by sky bridges** or aerial walkways
+- **Vertical garden megastructures** - towers covered in greenery
+- **Mirror-finished chrome and glass towers** reflecting the sky
+
+**SKYLINE COMPOSITION:**
+- The futuristic towers should be CLEARLY VISIBLE in the distance
+- They should rise BEHIND and AROUND the historic Westminster landmarks
+- Big Ben and Parliament remain the foreground heroes
+- The futuristic towers act as a backdrop showing "this is the future"
+- Towers should be varied in design - different shapes, heights, and styles
+- Some towers should be partially visible through atmospheric haze for depth
+- The distant skyline shows London has evolved into a futuristic metropolis
+
+**SKYLINE STYLE:**
+- Think: "Future London skyline 2075" - bold, optimistic, awe-inspiring
+- Inspiration: Blade Runner skyscrapers, Star Wars Coruscant, Tomorrowland city
+- Towers should feel like they BELONG in this London - architectural harmony
+- Mix of corporate towers, residential megastructures, and cultural landmarks
+- The skyline tells a story: "London preserved its history AND embraced the future"
+
+**RETROFIT STYLE GUIDE:**
+The aesthetic should feel like London's historic buildings have been LOVINGLY UPGRADED with futuristic technology - keeping their soul and silhouette while adding bold new tech elements. Think: "Cyberpunk meets gothic" or "Blade Runner London" but optimistic and Pixar-friendly. The contrast between gothic stone and glowing chrome/glass should be VISIBLE and INTENTIONAL, not subtle.
+
+**LANDMARKS TO ABSOLUTELY AVOID (geographically inconsistent):**
+✗ NO Tower Bridge (it's miles east of Westminster - wouldn't be in this view)
+✗ NO The Shard (across the river near London Bridge - different area entirely)
+✗ NO St. Paul's Cathedral (in the City of London, miles away)
+✗ NO Buckingham Palace (it faces the opposite direction from this view)
+✗ NO Tower of London (eastern London, not visible from Westminster)
+✗ NO London Bridge (different area)
+✗ NO Canary Wharf (miles east in Docklands)
+✗ NO Wembley Stadium, NO Hyde Park landmarks
+
+**ATMOSPHERE:**
+- Sky: Bright British sky with scattered clouds - can be partly cloudy with sun breaking through (classic London atmosphere) OR clear blue
+- Lighting: Bright daytime with Pixar's characteristic warm glow
+- Time of day: Late morning or golden hour afternoon
+- Depth: Multiple layers showing Westminster cityscape extending into distance
+- Westminster landmarks recognizable but futuristically enhanced
+- Optimistic, utopian future aesthetic (NOT dystopian or dark)
+- Clean, vibrant, hopeful vision of future London
+- Slight British charm maintained - red double-decker buses (futuristic versions) optional in distance
+
+COMPOSITION & FRAMING - TRADING CARD FORMAT:
+OUTPUT SPECIFICATIONS:
+- Aspect ratio: 1:1 (square format for 825x775 pixel photo window)
+- Orientation: Portrait/square
+- Format: Character portrait in futuristic environment
+FRAMING REQUIREMENTS:
+✓ Frame from waist/upper thighs up to just above the head
+✓ Minimal headroom (10-15% of image height above crown of head)
+✓ Character centered horizontally in frame
+✓ Show futuristic Westminster London background around and behind character
+✓ Include both arms/hands if positioned at chest level or higher
+✓ Character should occupy 70-80% of the frame height
+✓ Futuristic Westminster cityscape visible around character (Big Ben, Parliament, London Eye, Thames)
+✗ DO NOT create excessive empty space above head
+✗ DO NOT crop at chest or shoulders (must show waist area)
+✗ DO NOT center character vertically (head should be in upper portion)
+✗ DO NOT fill entire frame edge-to-edge with character
+COMPOSITION STYLE:
+- Professional character portrait in environment
+- Similar to: Movie character poster, profile portrait, character showcase
+- Character prominent but with visible futuristic Westminster London background
+- Natural, friendly posing
+- Camera angle: At or slightly below eye level (approachable perspective)
+ARTISTIC STYLE:
+- 3D rendered Pixar aesthetic (NOT 2D illustration, NOT photograph)
+- Soft, appealing character design with Pixar warmth
+- Smooth rendering with Pixar's characteristic lighting and shading
+- Vibrant, saturated colors typical of Pixar films
+- Clean, polished, professional animation quality
+- Slightly stylized but recognizable features
+- Family-friendly, optimistic tone
+LIGHTING & ATMOSPHERE:
+- Primary light: Warm sunlight from above (golden hour quality)
+- Fill light: Ambient light bounce from futuristic Westminster
+- Rim light: Subtle backlight separating character from background
+- Pixar's signature warm, inviting lighting
+- Soft shadows - nothing too harsh or dramatic
+- Overall brightness: Cheerful, optimistic, well-lit
+- Color temperature: Warm and friendly
+TECHNICAL SPECIFICATIONS:
+- Resolution: High quality suitable for print (300 DPI equivalent)
+- Aspect ratio: Portrait orientation (2:3 or 3:4)
+- 3D render quality: Pixar feature film level
+- Clean edges and smooth rendering
+- No visible artifacts or rendering issues
+CRITICAL CONSTRAINTS:
+✓ Facial likeness must be clearly recognizable to friends/colleagues
+✓ 3D Pixar style required (NOT 2D illustration, NOT photograph)
+✓ Futuristic Westminster London background mandatory with Big Ben visible
+✓ Character should look friendly, approachable, and professional
+✓ Preserve all ethnic features, skin tones, and natural characteristics
+✓ Preserve cultural elements integrated into Pixar design
+✓ MUST show waist/belt line at bottom of frame
+✓ MUST show significant futuristic Westminster city background
+✓ MUST include full upper body from waist up
+✓ CRITICAL: Minimal headroom (10-15%) with character framed waist-up
+✓ ONLY use Westminster-area landmarks that naturally appear together
+✗ Not overly cartoonish or caricatured - maintain dignity and professionalism
+✗ No specific Pixar characters - must be original design based on input photo
+✗ Avoid overly dramatic poses - keep it natural and approachable
+✗ Do not add props or accessories that weren't in input photo
+✗ Do NOT include lanyards, badges, name tags, ID cards, or conference credentials
+✗ Do NOT preserve company logos, brand names, or corporate branding
+✗ Do NOT include any text on clothing or accessories
+✗ DO NOT crop at chest level
+✗ DO NOT crop at mid-torso
+✗ DO NOT create tight close-up framing
+✗ DO NOT fill more than 50% of frame with subject
+✗ DO NOT leave excessive headroom (more than 15% above head)
+✗ DO NOT position subject in center of frame vertically
+✗ DO NOT hide futuristic city environment
+✗ DO NOT mix in geographically inconsistent landmarks (no Tower Bridge, Shard, St. Paul's, Buckingham Palace, Tower of London with Westminster)
+OUTPUT FORMAT:
+- Image only, no text response
+- No explanations or descriptions
+- Clean output ready for immediate use/printing
+- Pixar 3D animated character style
+==================================================
