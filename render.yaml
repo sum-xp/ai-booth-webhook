@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: ai-booth-webhook
+    runtime: python
+    plan: standard
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn server:app
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: GOOGLE_MODEL
+        value: gemini-3-pro-image-preview
+      - key: FALLBACK_MODEL
+        value: gemini-2.5-flash-preview-image-generation
+      - key: DEFAULT_STYLE
+        value: ""

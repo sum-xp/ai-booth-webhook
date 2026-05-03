@@ -1,0 +1,6 @@
+# Example style — replace with your actual prompt
+# Delete this file or rename this directory when adding a real style
+
+Transform the person in the photo into [describe the look/scene here].
+Keep their face, body shape, and expression identical.
+[Add any reference image instructions here.]
