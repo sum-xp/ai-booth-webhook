@@ -179,6 +179,9 @@ CRITICAL CONSTRAINTS:
 ✗ No specific copyrighted superheroes (Batman, Superman, Spider-Man, etc.) - original design only
 ✗ No copyrighted logos (Marvel, DC, Avengers, Justice League, etc.)
 ✗ No text, speech bubbles, or comic book text effects
+✗ NO border, frame, panel border, or white/colored mat around the image edge — image must be fully edge-to-edge with no framing elements of any kind
+✗ NO comic book panel border, NO white frame, NO black frame, NO decorative border around the outside of the image
+✗ DO NOT add any image border or outer frame — treat as a borderless full-bleed image
 ✗ Avoid overly sexualized or revealing costumes - keep it professional
 ✗ Do not add specific superhero props unless they fit the character naturally
 ✗ Do NOT include lanyards, badges, name tags, ID cards, or conference credentials
