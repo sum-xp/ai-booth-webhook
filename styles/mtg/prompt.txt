@@ -161,6 +161,9 @@ TECHNICAL SPECIFICATIONS:
 - No visible artifacts or digital compression issues
 
 CRITICAL CONSTRAINTS:
+✗ NO border, frame, trading card frame, poster frame, or white/colored mat around the image edge — image must be fully edge-to-edge with no framing elements of any kind
+✗ NO white frame, NO black frame, NO decorative border, NO physical trading card border around the outside of the image (the rendered output is NOT inside a Magic the Gathering card frame)
+✗ DO NOT add any image border or outer frame — treat as a borderless full-bleed fantasy illustration
 ✓ Facial likeness must be clearly recognizable to friends/colleagues
 ✓ Digital painting/illustration style required (NOT photograph, NOT 3D render like Pixar)
 ✓ Epic fantasy landscape background mandatory

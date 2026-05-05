@@ -323,6 +323,9 @@ TECHNICAL SPECIFICATIONS:
 - Clean edges and smooth rendering
 - No visible artifacts or rendering issues
 CRITICAL CONSTRAINTS:
+✗ NO border, frame, trading card frame, poster frame, or white/colored mat around the image edge — image must be fully edge-to-edge with no framing elements of any kind
+✗ NO white frame, NO black frame, NO decorative border, NO trading card border around the outside of the image
+✗ DO NOT add any image border or outer frame — treat as a borderless full-bleed photographic image
 ✓ Facial likeness must be clearly recognizable to friends/colleagues
 ✓ 3D Pixar style required (NOT 2D illustration, NOT photograph)
 ✓ Futuristic Westminster London background mandatory with Big Ben visible
