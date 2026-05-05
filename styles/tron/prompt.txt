@@ -64,14 +64,24 @@ SUPERHERO COSTUME TRANSFORMATION:
   * Bright colors (red/blue/green) → Vibrant superhero suit in matching primary colors
   * Multiple colors → Combine into cohesive costume design
   * Neutral tones (white/grey/tan) → Sleek modern hero suit in metallics or neutrals
-- Superhero costume style: Modern comic book aesthetic
-  * Form-fitting but not overly sexualized or revealing
-  * Sleek, aerodynamic design
-  * Geometric patterns or tech-inspired details
-  * Optional chest emblem/logo (generic heroic symbol - NO copyrighted logos)
+- Superhero costume style: Tron/sci-fi ARMORED hero (NOT skin-tight spandex)
+  * Form-fitting bodysuit BROKEN UP by visible armor pieces — not pure skin-tight latex
+  * MANDATORY armor pauldrons on the shoulders — sleek angular plates with glowing tron-style edge lighting
+  * MANDATORY gauntlets/bracers on the forearms — geometric armored cuffs from wrist to elbow with glowing accents
+  * Optional smaller armor accents on the chest and thighs to add visual structure and depth
+  * MANDATORY sci-fi utility belt at the waist — sleek tron-style belt with geometric tech compartments, glowing buckle, and angular pouches (NOT a plain leather belt, NOT bulky military webbing)
+  * Overall silhouette is LAYERED — bodysuit + shoulder armor + forearm armor + utility belt — never a single uninterrupted skin-tight suit
+  * Sleek, aerodynamic design with clear depth from the layered armor
+  * Glowing neon light strips (cyan/magenta/blue) running along the armor seams and panel edges
   * Cape optional based on color scheme and aesthetic
-  * Tech elements: circuit patterns, energy lines, armor plating
   * Maintain dignity and power without being gratuitous
+
+CHEST DESIGN — CRITICAL:
+  * The chest is PLAIN bodysuit fabric OR features only an abstract tron-style geometric pattern (triangle, hexagon, vertical light bar, concentric rings, circuit traces, diamond shape, abstract digital glyph)
+  * The chest pattern is GEOMETRIC and ABSTRACT — never a letter, never a shield-shaped emblem, never an animal or creature outline, never a stylized character mascot
+  * No central iconic emblem, no recognizable comic-book hero symbol, no large stylized motif on the chest
+  * Treat the chest like a tron-style armored vest with glowing line work, NOT a billboard for a hero logo
+  * If unsure, leave the chest plain with subtle glowing seams — better blank than wrong
 - Remove all modern elements: logos, text, brands, tech accessories
 - CRITICAL: Remove all event badges, lanyards, name tags, ID cards, conference credentials
 - CRITICAL: Remove all company logos and corporate branding
@@ -176,8 +186,11 @@ CRITICAL CONSTRAINTS:
 ✓ MUST include full upper body from waist up
 ✓ CRITICAL: Minimal headroom (10-15%) with character framed waist-up
 ✗ Not too cartoonish or silly - maintain power and dignity
-✗ No specific copyrighted superheroes (Batman, Superman, Spider-Man, etc.) - original design only
-✗ No copyrighted logos (Marvel, DC, Avengers, Justice League, etc.)
+✗ Original sci-fi armored hero design only — not modeled on any existing comic book or movie character
+✗ No recognizable copyrighted publisher branding or franchise insignia anywhere in the image
+✗ The chest must be plain bodysuit OR an abstract geometric tron pattern only — NOT a letter, NOT a shield outline, NOT an animal/creature symbol, NOT a stylized mascot or initial
+✗ MANDATORY shoulder pauldrons and forearm gauntlets visible on the costume — never a fully unbroken skin-tight suit from neck to wrist
+✗ MANDATORY sci-fi utility belt at the waist with geometric tech compartments and glowing accents — never a plain leather belt or no belt at all
 ✗ No text, speech bubbles, or comic book text effects
 ✗ NO border, frame, panel border, or white/colored mat around the image edge — image must be fully edge-to-edge with no framing elements of any kind
 ✗ NO comic book panel border, NO white frame, NO black frame, NO decorative border around the outside of the image
