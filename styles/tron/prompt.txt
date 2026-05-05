@@ -17,6 +17,35 @@ This is a SQUARE (1:1) format trading card photo window.
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+COSTUME IS ARMORED — NOT SKIN-TIGHT SPANDEX
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+The output is a TRON-STYLE ARMORED CYBER-HERO, not a comic-book spandex superhero.
+
+✓ The costume is LAYERED — visible HARD ARMOR PIECES (shoulder pauldrons, forearm gauntlets, utility belt, optional chest plate) worn ON TOP of an underlying bodysuit
+✓ Armor pieces are RAISED THREE-DIMENSIONAL SHELLS sitting clearly proud of the bodysuit surface, casting their own visible shadows where they meet the suit
+✓ Armor has hard edges and a different material from the bodysuit (matte composite, brushed metal, or polished sci-fi alloy) — visually distinct, not flat painted-on graphics
+✓ Visual references: Tron Legacy lightsuit + Mass Effect N7 armor + sleek mech cosmetics — clearly armored sci-fi warrior, not spandex hero
+✗ NEVER a single uninterrupted skin-tight catsuit/bodysuit from neck to wrist
+✗ NEVER pure spandex/latex with only painted lines or seam outlines pretending to be armor
+✗ NEVER a costume that reads as "comic book superhero in a spandex bodysuit"
+✗ The armor must be UNAMBIGUOUSLY a separate worn layer — if you mentally removed the armor pieces, you'd be left with a bare bodysuit underneath
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+NO LETTERS, NO LOGOS, NO PATTERNS FROM SOURCE PHOTO
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+✗ ABSOLUTELY NO letters, initials, alphabetic characters, or numeric digits ANYWHERE on the costume (chest, belt, shoulders, sleeves, gauntlets — nowhere)
+✗ NO monograms, NO stylized character forms, NO single-letter emblems
+✗ NO recognizable hero insignia, shield-shaped chest emblem, or franchise logo of any kind
+✗ Source clothing PATTERNS DO NOT TRANSFER to the costume — only the color palette transfers
+✗ If the source shirt has flowers/florals → costume has NO flowers (just solid color-matched armor and bodysuit)
+✗ If the source has plaid/checks/stripes/graphics/animal print → costume has NONE of those patterns
+✗ The costume's only decoration is abstract tron-style geometric line work (glowing seams, panel edges, circuit traces) — never a printed motif
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 INPUT: Guest photo from booth (ideally green screen background)
 
 EXECUTION SEQUENCE:
@@ -54,7 +83,7 @@ SUBJECT TRANSFORMATION:
 - Facial expression: Determined, heroic, confident, fierce, or powerful
 - Pose: Dynamic superhero stance (fists on hips, arms crossed, power pose, or ready stance)
 - Glasses: if present in input, stylize to sleek superhero aesthetic (tech-enhanced frames) or convert to mask across eyes while keeping face recognizable
-- Cultural elements: integrate respectfully into superhero design (e.g., bindi as power symbol, traditional patterns as costume details)
+- Cultural elements: integrate respectfully into the cyber-hero design only as cultural accessories (bindis preserved on face, head coverings preserved, religious jewelry preserved) — but DO NOT translate any source clothing patterns or prints onto the costume itself
 - Slight halftone dot pattern texture for authentic comic book feel
 
 SUPERHERO COSTUME TRANSFORMATION:
@@ -76,12 +105,15 @@ SUPERHERO COSTUME TRANSFORMATION:
   * Cape optional based on color scheme and aesthetic
   * Maintain dignity and power without being gratuitous
 
-CHEST DESIGN — CRITICAL:
-  * The chest is PLAIN bodysuit fabric OR features only an abstract tron-style geometric pattern (triangle, hexagon, vertical light bar, concentric rings, circuit traces, diamond shape, abstract digital glyph)
-  * The chest pattern is GEOMETRIC and ABSTRACT — never a letter, never a shield-shaped emblem, never an animal or creature outline, never a stylized character mascot
-  * No central iconic emblem, no recognizable comic-book hero symbol, no large stylized motif on the chest
-  * Treat the chest like a tron-style armored vest with glowing line work, NOT a billboard for a hero logo
-  * If unsure, leave the chest plain with subtle glowing seams — better blank than wrong
+CHEST DESIGN — STRICTLY ENFORCED:
+  * DEFAULT: the chest is PLAIN bodysuit/armor with no central emblem at all — just glowing tron-style seams along panel edges
+  * If any chest detail is added, it is a small abstract glowing geometric shape ONLY (vertical light bar, concentric rings, circuit traces, diamond) — never a central focal motif
+  * ABSOLUTELY NO letters of any kind on the chest — no "S", no "C", no "M", no monograms, no initials, no alphabetic glyphs of any size
+  * ABSOLUTELY NO shield-shaped emblems, badge-shaped emblems, or hero crests
+  * ABSOLUTELY NO animal/creature symbols (no spiders, no bats, no birds, no big cats, no wolves)
+  * ABSOLUTELY NO numeric digits
+  * The chest is NOT a billboard — treat it like the front of a sci-fi armor plate, not a superhero's signature logo space
+  * If in doubt, the chest is BLANK with subtle glowing seams — better blank than wrong
 - Remove all modern elements: logos, text, brands, tech accessories
 - CRITICAL: Remove all event badges, lanyards, name tags, ID cards, conference credentials
 - CRITICAL: Remove all company logos and corporate branding
@@ -188,9 +220,11 @@ CRITICAL CONSTRAINTS:
 ✗ Not too cartoonish or silly - maintain power and dignity
 ✗ Original sci-fi armored hero design only — not modeled on any existing comic book or movie character
 ✗ No recognizable copyrighted publisher branding or franchise insignia anywhere in the image
-✗ The chest must be plain bodysuit OR an abstract geometric tron pattern only — NOT a letter, NOT a shield outline, NOT an animal/creature symbol, NOT a stylized mascot or initial
-✗ MANDATORY shoulder pauldrons and forearm gauntlets visible on the costume — never a fully unbroken skin-tight suit from neck to wrist
+✗ The chest is PLAIN by default — NO letters (no "S"/"C"/"M"/etc.), NO initials, NO shield-shaped emblems, NO animal/creature symbols, NO mascot motifs, NO numeric digits anywhere on the costume
+✗ MANDATORY raised three-dimensional armor pauldrons on the shoulders AND raised gauntlets on the forearms — clearly proud of the bodysuit surface, casting their own shadows, NOT painted lines or seam outlines
 ✗ MANDATORY sci-fi utility belt at the waist with geometric tech compartments and glowing accents — never a plain leather belt or no belt at all
+✗ Source-clothing patterns DO NOT transfer — if the source has florals/plaid/stripes/graphics/animal print, the costume has NONE of those patterns (only solid color-matched panels with abstract tron line work)
+✗ The costume must read as ARMORED CYBER-HERO, not as spandex/latex superhero — if the result looks like a comic book hero in a skin-tight bodysuit, it is wrong
 ✗ No text, speech bubbles, or comic book text effects
 ✗ NO border, frame, panel border, or white/colored mat around the image edge — image must be fully edge-to-edge with no framing elements of any kind
 ✗ NO comic book panel border, NO white frame, NO black frame, NO decorative border around the outside of the image
