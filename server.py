@@ -142,8 +142,9 @@ def resize_to_target(image_bytes, width, height):
     top = (new_height - height) // 2
     img = img.crop((left, top, left + width, top + height))
 
-    # Light sharpen after downscale — matches Orca's tuned value (0.8/80)
-    img = img.filter(ImageFilter.UnsharpMask(radius=0.8, percent=80, threshold=2))
+    # Tight-radius sharpen — small radius avoids halos around hair/beard edges
+    # while still recovering some detail lost in downscale
+    img = img.filter(ImageFilter.UnsharpMask(radius=0.4, percent=70, threshold=2))
 
     buf = BytesIO()
     img.save(buf, format='JPEG', quality=95)
