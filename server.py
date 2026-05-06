@@ -142,9 +142,8 @@ def resize_to_target(image_bytes, width, height):
     top = (new_height - height) // 2
     img = img.crop((left, top, left + width, top + height))
 
-    # Sharpen after downscale — slightly stronger than Orca (0.8/80) to compensate
-    # for gemini-3-pro-image-preview's painterly default render
-    img = img.filter(ImageFilter.UnsharpMask(radius=1.0, percent=100, threshold=2))
+    # Light sharpen after downscale — matches Orca's tuned value (0.8/80)
+    img = img.filter(ImageFilter.UnsharpMask(radius=0.8, percent=80, threshold=2))
 
     buf = BytesIO()
     img.save(buf, format='JPEG', quality=95)
