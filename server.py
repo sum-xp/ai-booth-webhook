@@ -16,6 +16,7 @@ from flask import Flask, request, jsonify, send_file
 from google import genai
 from google.genai import types as genai_types
 from PIL import Image, ImageFilter
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeoutError
 import os
 import glob
 import json
@@ -38,6 +39,10 @@ DEFAULT_OUTPUT_WIDTH = int(os.environ.get('OUTPUT_WIDTH', '1600'))
 DEFAULT_OUTPUT_HEIGHT = int(os.environ.get('OUTPUT_HEIGHT', '960'))
 DEFAULT_ASPECT_RATIO = os.environ.get('ASPECT_RATIO', '3:2')
 DEFAULT_STYLE = os.environ.get('DEFAULT_STYLE', '')
+
+# Per-attempt API timeout — bounds a single NB Pro call.
+# Orphaned threads finish in the background; the worker moves on.
+ATTEMPT_TIMEOUT = int(os.environ.get('ATTEMPT_TIMEOUT', '50'))
 
 STYLES_DIR = os.path.join(os.path.dirname(__file__), 'styles')
 
@@ -346,32 +351,50 @@ def process_image():
         model_used = None
 
         for model_name in models_to_try:
-            max_retries = 3 if model_name == GOOGLE_MODEL else 2
-            retry_delays = [2, 5, 10]
+            max_retries = 2  # primary and fallback both get 2 attempts max
+            retry_delays = [1, 2]
 
             for attempt in range(max_retries):
+                api_start = time.time()
                 try:
-                    api_start = time.time()
                     client = get_google_client()
                     if not client:
                         raise Exception("No Google API key configured")
 
-                    print(f"  [{model_name}] attempt {attempt + 1}/{max_retries}...")
-                    response = client.models.generate_content(
-                        model=model_name,
-                        contents=contents,
-                        config=genai_types.GenerateContentConfig(
-                            response_modalities=['TEXT', 'IMAGE'],
-                            image_config=genai_types.ImageConfig(
-                                image_size='2K',
-                                aspect_ratio=aspect_ratio,
+                    print(f"  [{model_name}] attempt {attempt + 1}/{max_retries} (timeout={ATTEMPT_TIMEOUT}s)...")
+
+                    # Run the API call on a sub-thread with a hard timeout.
+                    # If timeout fires, orphan thread finishes in background; we move on.
+                    executor = ThreadPoolExecutor(max_workers=1)
+                    try:
+                        future = executor.submit(
+                            client.models.generate_content,
+                            model=model_name,
+                            contents=contents,
+                            config=genai_types.GenerateContentConfig(
+                                response_modalities=['TEXT', 'IMAGE'],
+                                image_config=genai_types.ImageConfig(
+                                    image_size='2K',
+                                    aspect_ratio=aspect_ratio,
+                                )
                             )
                         )
-                    )
+                        response = future.result(timeout=ATTEMPT_TIMEOUT)
+                    finally:
+                        executor.shutdown(wait=False)
+
                     api_time = time.time() - api_start
                     model_used = model_name
                     print(f"  [{model_name}] done in {api_time:.1f}s")
                     break
+
+                except FutureTimeoutError:
+                    api_time = time.time() - api_start
+                    print(f"  [{model_name}] attempt {attempt + 1} TIMED OUT after {api_time:.1f}s (limit {ATTEMPT_TIMEOUT}s)")
+                    if attempt < max_retries - 1:
+                        delay = retry_delays[attempt]
+                        print(f"  Retrying in {delay}s...")
+                        time.sleep(delay)
 
                 except Exception as retry_error:
                     api_time = time.time() - api_start
