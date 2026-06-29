@@ -15,8 +15,9 @@ the photo. Do not add forehead tattoos, arrow markings, scars, or any
 character-specific identifiers.
 
 TASK: Transform the person in the photo into this illustrated art style
-as an Earth Kingdom warrior or bender, actively channeling earthbending
-power with floating rock elements.
+as an Earth Kingdom bender or citizen, actively channeling earthbending
+power with floating rock elements. The character is a real person
+re-imagined in the Avatar world — not a generic warrior archetype.
 
 FACE: Preserve the guest's facial structure, skin tone (rendered in the
 animation palette), age, and gender expression. Do not alter or replace
@@ -27,9 +28,21 @@ Preserve the guest's body type and proportions accurately. The Avatar
 animation style simplifies forms, but it should simplify PROPORTIONALLY —
 honoring the actual person, not defaulting to a generic anime template.
 
-✓ Match the guest's BUILD: slim → slim, average → average, athletic →
-  athletic, muscular → muscular, plus-size / heavier → plus-size with the
-  same proportions, petite → petite, tall → tall.
+✓ Match the guest's BUILD AND THE EXACT LEVEL within that build:
+  - Slim/lean → slim/lean (don't add muscle definition that isn't there)
+  - Athletic-lean / toned → athletic-lean (subtle muscle definition,
+    NOT bodybuilder/warrior bulk)
+  - Athletic-muscular → athletic-muscular (defined but proportional,
+    NOT exaggerated)
+  - Heavily muscular / bodybuilder → only if the source actually shows
+    that level of muscle mass
+  - Average → average (no invented muscle tone)
+  - Plus-size / heavier → plus-size with the same proportions, not
+    slimmed down
+  - Petite → petite, tall → tall
+  Do NOT push toward a "warrior" or "hero" idealized body if the source
+  shows a different level of musculature. Lean-toned source → lean-toned
+  result, NOT bulked up.
 ✓ Match the guest's SILHOUETTE: shoulder width, torso shape, waist-to-hip
   ratio, limb thickness, neck width, and overall body mass should reflect
   what you see in the source photo.
@@ -103,8 +116,25 @@ POSE: If the subject is in a neutral or static standing pose, reinterpret
 them in a dynamic earthbending or martial arts stance — weight low and
 grounded, arms engaged, powerful and ready, as if mid-form. If the subject
 is already in an expressive or action pose, preserve and honor that pose.
-At least one hand should be open and gesturing outward as if channeling
-earthbending power.
+
+HAND PRIORITY for earthbending: at least one of the character's TWO hands
+must be open and gesturing outward as if channeling earthbending power.
+
+- If the source pose leaves at least one hand free, use that hand for the
+  earthbending gesture and keep the other hand as the source shows it.
+- If the source pose has BOTH hands occupied (e.g. hands behind head, arms
+  crossed, hands in pockets, holding an object): MODIFY ONE of those hands
+  to be open and gesturing outward toward the rock, rather than inventing
+  additional limbs. Pick whichever hand position can most naturally
+  transition to a gesturing pose without breaking the rest of the body
+  language.
+- NEVER add an extra arm, hand, or limb to satisfy the gesturing
+  requirement. The character has exactly two arms and two hands.
+
+ANATOMICAL CORRECTNESS: The character must have exactly 2 arms, 2 hands,
+2 legs, 2 feet, 1 head, 1 torso. No extra limbs, no duplicated body
+parts, no merged or impossible anatomy. This rule overrides all pose
+preservation guidance.
 
 EARTHBENDING ROCKS (CRITICAL placement rules for the cut-out step):
 The character is actively earthbending. Floating rocks in the style of
@@ -145,5 +175,7 @@ novel inking, exaggerated bold linework, ripped clothing, torn fabric,
 distressed garments, battle damage, excessive fabric folds,
 overly detailed fabric texture, idealized anime body proportions,
 generic athletic build, default anime-thin physique, slimmed-down body,
-artificially muscled build, body-shape standardization,
-elongated limbs, narrowed waist
+artificially muscled build, bulked-up musculature, exaggerated muscles,
+warrior bulk, bodybuilder physique, body-shape standardization,
+elongated limbs, narrowed waist, three arms, extra limbs, extra hands,
+extra fingers, duplicated body parts, merged anatomy, impossible anatomy
