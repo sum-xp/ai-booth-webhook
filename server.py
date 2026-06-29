@@ -8,6 +8,8 @@ Style directory layout:
       prompt.txt          (required)
       config.json         (optional — aspect_ratio, output_width, output_height)
       *.jpg / *.png       (optional reference images, passed to AI in sort order)
+      background.jpg      (reserved name — if present, triggers opt-in
+                           remove.bg + composite step; NOT sent to AI as a ref)
 
 URL: POST /process?style={style_name}
 """
@@ -43,6 +45,16 @@ DEFAULT_STYLE = os.environ.get('DEFAULT_STYLE', '')
 # Per-attempt API timeout — bounds a single NB Pro call.
 # Orphaned threads finish in the background; the worker moves on.
 ATTEMPT_TIMEOUT = int(os.environ.get('ATTEMPT_TIMEOUT', '50'))
+
+# Optional background-composite step (style-opt-in via background.jpg)
+REMOVEBG_API_KEY = os.environ.get('REMOVEBG_API_KEY', '')
+REMOVEBG_SIZE = os.environ.get('REMOVEBG_SIZE', 'auto')  # 'auto', 'preview', 'full'
+REMOVEBG_TIMEOUT = int(os.environ.get('REMOVEBG_TIMEOUT', '30'))
+
+# Reserved filename inside a style folder. If present, server runs the
+# remove.bg + composite step instead of returning the raw AI output.
+# The file is NOT sent to the AI as a reference image.
+BACKGROUND_FILENAME = 'background.jpg'
 
 STYLES_DIR = os.path.join(os.path.dirname(__file__), 'styles')
 
@@ -97,27 +109,36 @@ def discover_styles():
             with open(config_path, 'r') as f:
                 config = json.load(f)
 
-        # Reference images in alphabetical order
+        # Reference images in alphabetical order. background.jpg is reserved —
+        # excluded from refs and treated as a composite asset instead.
         refs = []
+        background_path = None
         img_files = sorted(
             glob.glob(os.path.join(full_path, '*.png')) +
             glob.glob(os.path.join(full_path, '*.jpg')) +
             glob.glob(os.path.join(full_path, '*.jpeg'))
         )
         for img_file in img_files:
+            basename = os.path.basename(img_file)
+            if basename == BACKGROUND_FILENAME:
+                background_path = img_file
+                continue
             with open(img_file, 'rb') as f:
                 img_bytes = f.read()
             ext = os.path.splitext(img_file)[1].lower()
             mime = 'image/png' if ext == '.png' else 'image/jpeg'
-            refs.append((img_bytes, mime, os.path.basename(img_file)))
+            refs.append((img_bytes, mime, basename))
 
         styles[style_name] = {
             'prompt': prompt_text,
             'refs': refs,
             'config': config,
+            'background_path': background_path,
         }
+        bg_note = f", composite background: {os.path.basename(background_path)}" if background_path else ""
         print(f"  Style '{style_name}': {len(prompt_text)} chars, {len(refs)} ref images"
-              + (f", config: {config}" if config else ""))
+              + (f", config: {config}" if config else "")
+              + bg_note)
 
     return styles
 
@@ -125,6 +146,94 @@ def discover_styles():
 # ---------------------------------------------------------------------------
 # Image utilities
 # ---------------------------------------------------------------------------
+
+def remove_bg(image_bytes):
+    """Call remove.bg API. Returns transparent PNG bytes.
+
+    Raises Exception on API/network failure. Callers should be prepared to
+    fail soft and fall back to the raw AI output.
+    """
+    if not REMOVEBG_API_KEY:
+        raise Exception("REMOVEBG_API_KEY env var not set")
+
+    resp = requests.post(
+        "https://api.remove.bg/v1.0/removebg",
+        headers={"X-Api-Key": REMOVEBG_API_KEY},
+        files={"image_file": ("subject.jpg", image_bytes, "image/jpeg")},
+        data={"size": REMOVEBG_SIZE, "format": "png"},
+        timeout=REMOVEBG_TIMEOUT,
+    )
+    if resp.status_code != 200:
+        # remove.bg returns JSON error details in the body
+        raise Exception(f"remove.bg API error {resp.status_code}: {resp.text[:300]}")
+    return resp.content
+
+
+def composite_on_background(subject_png_bytes, background_path, photo_window=None):
+    """Composite a removed-bg subject (transparent PNG) onto a background image.
+
+    photo_window (optional dict) constrains where the subject is placed inside
+    the background, useful for backgrounds with reserved caption/branding space
+    (e.g. polaroid-style layouts). Defaults to the full background if absent.
+
+      photo_window = {"x": 0, "y": 0, "width": 1080, "height": 1080}
+
+    The subject is scaled to fit ~95% of the photo window (preserving aspect),
+    then centered inside the window. Returns JPEG bytes at the background's
+    native dimensions.
+    """
+    subject = Image.open(BytesIO(subject_png_bytes)).convert("RGBA")
+    background = Image.open(background_path).convert("RGB")
+    bw, bh = background.size
+
+    # Autocrop subject to its non-transparent bounding box so the scaling
+    # logic operates on the character's actual silhouette rather than the
+    # whole PNG (which usually has lots of transparent margin from where
+    # the AI's white background got stripped). Without this, the character
+    # appears small/narrow in the photo window.
+    bbox = subject.getbbox()
+    if bbox:
+        subject = subject.crop(bbox)
+
+    # Photo window defaults to full background if not specified
+    if photo_window:
+        wx = int(photo_window.get('x', 0))
+        wy = int(photo_window.get('y', 0))
+        ww = int(photo_window.get('width', bw))
+        wh = int(photo_window.get('height', bh))
+        # Clamp to background bounds
+        wx = max(0, min(wx, bw))
+        wy = max(0, min(wy, bh))
+        ww = max(1, min(ww, bw - wx))
+        wh = max(1, min(wh, bh - wy))
+    else:
+        wx, wy, ww, wh = 0, 0, bw, bh
+
+    sw, sh = subject.size
+
+    # Scale subject to fit ~95% of the photo window (preserving aspect)
+    target_h = int(wh * 0.95)
+    target_w = int(sw * (target_h / sh))
+
+    # If the resulting width overflows the window, scale by width instead
+    if target_w > int(ww * 0.95):
+        target_w = int(ww * 0.95)
+        target_h = int(sh * (target_w / sw))
+
+    subject_resized = subject.resize((target_w, target_h), Image.LANCZOS)
+
+    # Center subject inside the photo window
+    x = wx + (ww - target_w) // 2
+    y = wy + (wh - target_h) // 2
+
+    composite = background.copy()
+    # Third arg = mask: paste uses subject's alpha channel
+    composite.paste(subject_resized, (x, y), subject_resized)
+
+    buf = BytesIO()
+    composite.save(buf, format='JPEG', quality=95)
+    return buf.getvalue()
+
 
 def resize_to_target(image_bytes, width, height):
     """Resize and center-crop image to exact target dimensions."""
@@ -190,10 +299,12 @@ def health():
                 "prompt_chars": len(s['prompt']),
                 "ref_images": len(s['refs']),
                 "config": s['config'],
+                "has_composite_background": bool(s.get('background_path')),
             }
             for name, s in STYLES.items()
         },
         "api_keys": len(GOOGLE_API_KEYS),
+        "removebg_configured": bool(REMOVEBG_API_KEY),
     }), 200
 
 
@@ -432,6 +543,26 @@ def process_image():
                 "status": "error",
                 "message": f"No image in response. Text: {text_parts}"[:500]
             }), 500
+
+        # ------------------------------------------------------------------
+        # 5b. Optional background composite (style-opt-in via background.jpg)
+        # ------------------------------------------------------------------
+        background_path = style_data.get('background_path')
+        if background_path:
+            composite_start = time.time()
+            photo_window = config.get('photo_window')
+            print(f"  Compositing onto background: {os.path.basename(background_path)}"
+                  + (f" (window={photo_window})" if photo_window else " (full bg)"))
+            try:
+                removed_bytes = remove_bg(result_bytes)
+                print(f"  remove.bg returned {len(removed_bytes)} bytes ({time.time() - composite_start:.1f}s)")
+                result_bytes = composite_on_background(removed_bytes, background_path, photo_window=photo_window)
+                print(f"  Composite done: {len(result_bytes)} bytes ({time.time() - composite_start:.1f}s total)")
+            except Exception as composite_err:
+                # Fail soft — return raw AI output rather than erroring the
+                # whole request. Guest still gets an image; operators see
+                # the failure in logs and can investigate.
+                print(f"  WARNING: composite step failed, falling back to raw AI output: {composite_err}")
 
         # ------------------------------------------------------------------
         # 6. Resize → return

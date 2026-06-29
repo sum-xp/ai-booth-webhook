@@ -1,0 +1,86 @@
+REFERENCE IMAGES (two provided, in order):
+  1. CHARACTER STYLE REFERENCE — defines the target art style: Avatar: The
+     Last Airbender animated style — cel-shaded illustration with CLEAN
+     MEDIUM-WEIGHT BLACK INK OUTLINES matching the exact line weight in
+     the reference image (animation-cel weight, not thick, not heavy).
+     Flat color fills with soft gradient shading on faces and minimal
+     clothing fold lines. Anime-influenced facial proportions with large
+     expressive eyes and clean simplified features.
+  2. EARTH ELEMENT REFERENCE — defines the style of floating rocks /
+     earthbending debris that should appear with the character.
+
+USE THE REFERENCES FOR STYLE ONLY. Do not copy any specific character's
+face, hair, costume, markings, or tattoos. The subject is the person in
+the photo. Do not add forehead tattoos, arrow markings, scars, or any
+character-specific identifiers.
+
+TASK: Transform the person in the photo into this illustrated art style
+as an Earth Kingdom warrior or bender, actively channeling earthbending
+power with floating rock elements.
+
+FACE: Preserve the guest's facial structure, skin tone (rendered in the
+animation palette), age, and gender expression. Do not alter or replace
+facial features.
+
+CLOTHING: Reinterpret the guest's clothing into Earth Kingdom attire.
+Preserve their general silhouette and layering — if they wear something
+fitted, keep it fitted; if layered, keep it layered. Shift all colors to
+Earth Kingdom palette: greens, forest greens, browns, tans, and ochres.
+Translate fabrics into sturdy tunics, wide sashes, layered robes, or
+wrapped garments appropriate to the Earth Kingdom. If the guest is showing
+skin — bare arms, midriff, shoulders — the illustrated character must
+reflect the same skin exposure in those areas. Always replace footwear
+with Avatar world-appropriate shoes: leather sandals, wrapped cloth shoes,
+warrior boots, or bare feet as suits the outfit.
+
+CLOTHING DETAIL LEVEL: Keep clothing clean, intact, and animation-simple.
+Use minimal fold lines and economical fabric rendering — match the
+reference image's level of detail, NOT graphic-novel-level fabric
+rendering. No rips, tears, distressing, knee patches, ragged hems,
+torn fabric, or battle damage unless the source photo clearly shows it.
+
+POSE: If the subject is in a neutral or static standing pose, reinterpret
+them in a dynamic earthbending or martial arts stance — weight low and
+grounded, arms engaged, powerful and ready, as if mid-form. If the subject
+is already in an expressive or action pose, preserve and honor that pose.
+At least one hand should be open and gesturing outward as if channeling
+earthbending power.
+
+EARTHBENDING ROCKS (CRITICAL placement rules for the cut-out step):
+The character is actively earthbending. Floating rocks in the style of
+the second reference image must appear with the character, BUT placement
+matters because the image will be background-stripped afterward and any
+disconnected floating element risks being removed as background noise.
+
+✓ Place ONE LARGE primary rock TOUCHING OR DIRECTLY ADJACENT to the
+  character's open hand (within a hand-width), as if being levitated by
+  the character. It should visually overlap or connect to the hand so it
+  reads as part of the character.
+✓ Optional smaller rocks (1-3 of them) may scatter NEAR the character —
+  close to elbows, hips, or feet — but always WITHIN ~15% of the
+  character's silhouette, never floating off in the corners or edges.
+✓ All rocks rendered in the same cel-shaded illustrated style as the
+  second reference image: bold outlines, flat fills, brown/tan rock
+  colors with darker shading.
+
+✗ DO NOT place rocks far from the character or floating near the image
+  edges — they will be stripped.
+✗ DO NOT place rocks in symmetrical decorative patterns — they should
+  feel like an in-progress earthbending action, not a layout element.
+
+BACKGROUND: Pure white. No environment, no setting, no gradient, no shadow
+on the background. Character + earthbending rocks only on a clean white
+background.
+
+OUTPUT: Full body portrait, fully illustrated. No photorealistic blending.
+Pure animated art style matching the first reference image.
+
+NEGATIVE: photorealistic, 3D render, CGI, photograph, hybrid photo-art,
+sketch only, watercolor, manga black-and-white, chibi, Pixar, Disney,
+arrow tattoos, forehead markings, blue aliens, Na'vi, James Cameron Avatar,
+background scenery, colored background, gradient background, textured
+background, rocks far from character, rocks in image corners,
+decorative rock borders, thick outlines, heavy ink weight, graphic
+novel inking, exaggerated bold linework, ripped clothing, torn fabric,
+distressed garments, battle damage, excessive fabric folds,
+overly detailed fabric texture
