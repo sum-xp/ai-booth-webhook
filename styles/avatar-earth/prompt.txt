@@ -22,16 +22,76 @@ FACE: Preserve the guest's facial structure, skin tone (rendered in the
 animation palette), age, and gender expression. Do not alter or replace
 facial features.
 
-CLOTHING: Reinterpret the guest's clothing into Earth Kingdom attire.
-Preserve their general silhouette and layering — if they wear something
-fitted, keep it fitted; if layered, keep it layered. Shift all colors to
-Earth Kingdom palette: greens, forest greens, browns, tans, and ochres.
-Translate fabrics into sturdy tunics, wide sashes, layered robes, or
-wrapped garments appropriate to the Earth Kingdom. If the guest is showing
-skin — bare arms, midriff, shoulders — the illustrated character must
-reflect the same skin exposure in those areas. Always replace footwear
-with Avatar world-appropriate shoes: leather sandals, wrapped cloth shoes,
-warrior boots, or bare feet as suits the outfit.
+BODY SHAPE & BUILD (critical for recognizability):
+Preserve the guest's body type and proportions accurately. The Avatar
+animation style simplifies forms, but it should simplify PROPORTIONALLY —
+honoring the actual person, not defaulting to a generic anime template.
+
+✓ Match the guest's BUILD: slim → slim, average → average, athletic →
+  athletic, muscular → muscular, plus-size / heavier → plus-size with the
+  same proportions, petite → petite, tall → tall.
+✓ Match the guest's SILHOUETTE: shoulder width, torso shape, waist-to-hip
+  ratio, limb thickness, neck width, and overall body mass should reflect
+  what you see in the source photo.
+✓ Match age-appropriate proportions: adults get adult proportions (broad
+  shoulders if male, fuller hips if female, adult head-to-body ratio).
+  Younger guests get age-appropriate proportions.
+✓ Preserve gender expression in body shape: feminine builds keep feminine
+  curves, masculine builds keep masculine frames, androgynous builds
+  remain androgynous.
+
+✗ Do NOT default to idealized anime-thin or anime-athletic proportions
+  when the source photo shows a different body type.
+✗ Do NOT slim down heavier guests, bulk up slimmer guests, or muscle up
+  non-muscular guests.
+✗ Do NOT lengthen limbs, narrow waists, or alter height proportions to
+  match a generic Avatar character template.
+✗ Do NOT shrink or enlarge facial features to fit an idealized template.
+
+CLOTHING: Reinterpret the guest's clothing into Earth Kingdom attire,
+HONORING THE SPECIFIC GARMENT TYPE they are wearing — not generic warrior
+gear. Translate using the Earth Kingdom palette (greens, forest greens,
+browns, tans, ochres) with fabrics styled as Earth Kingdom equivalents:
+tunics, wraps, sashes, robes, vests, peasant tops, or simple bound
+garments — but the SHAPE of the garment must mirror what the guest wears.
+
+CRITICAL: match the source garment exactly on these dimensions:
+
+✓ SLEEVE LENGTH (most important):
+  - Sleeveless / tank top → sleeveless Earth Kingdom top (no sleeves)
+  - Short sleeves / T-shirt → short-sleeve tunic
+  - Three-quarter sleeves → three-quarter Earth Kingdom robe
+  - Long sleeves / button-up shirt → long-sleeve tunic or full robe
+  Do NOT change sleeve length. A long-sleeve source must produce a
+  long-sleeve result.
+
+✓ TOP LENGTH:
+  - Crop top / midriff exposed → cropped Earth Kingdom top with bare
+    midriff (e.g. wrapped chest band, short bound tunic)
+  - Standard hip-length → standard hip-length tunic
+  - Long top / dress / long shirt → flowing extended tunic or robe
+
+✓ NECKLINE & CHEST OPENING:
+  - High crew neck / closed → high-collar tunic
+  - Open collar / unbuttoned → open-fronted wrap or low V-neck robe
+  - Deep V / plunging → deep V Earth Kingdom robe
+  - Scoop / boat neck → matching scooped neckline
+
+✓ LAYERING:
+  - Single layer → single layer
+  - Jacket over shirt / vest over T → outer tunic/vest over inner garment
+  - Cardigan / open hoodie → open Earth Kingdom robe over undertunic
+
+✓ FITTED vs LOOSE: fitted source → fitted result; loose/baggy → loose flowing.
+
+SKIN EXPOSURE: if the guest shows bare arms, shoulders, midriff, chest,
+back, or legs, the illustrated character must show skin in those same
+areas. Conversely, if the guest is fully covered, the character must also
+be fully covered — do not invent bare skin that wasn't there.
+
+FOOTWEAR: Always replace with Avatar world-appropriate footwear — leather
+sandals, cloth-wrapped shoes, warrior boots, or bare feet — chosen to
+match the guest's footwear vibe (athletic, casual, formal, none).
 
 CLOTHING DETAIL LEVEL: Keep clothing clean, intact, and animation-simple.
 Use minimal fold lines and economical fabric rendering — match the
@@ -83,4 +143,7 @@ background, rocks far from character, rocks in image corners,
 decorative rock borders, thick outlines, heavy ink weight, graphic
 novel inking, exaggerated bold linework, ripped clothing, torn fabric,
 distressed garments, battle damage, excessive fabric folds,
-overly detailed fabric texture
+overly detailed fabric texture, idealized anime body proportions,
+generic athletic build, default anime-thin physique, slimmed-down body,
+artificially muscled build, body-shape standardization,
+elongated limbs, narrowed waist
